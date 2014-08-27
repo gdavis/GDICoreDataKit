@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-extern NSString * const CORE_DATA_STACK_DID_REBUILD_DATABASE;
+extern NSString * const GDICoreDataStackDidRebuildDatabase;
 
 @interface GDICoreDataStack : NSObject
 

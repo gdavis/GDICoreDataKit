@@ -8,7 +8,7 @@
 
 #import "GDICoreDataStack.h"
 
-NSString * const CORE_DATA_STACK_DID_REBUILD_DATABASE = @"CORE_DATA_STACK_DID_REBUILD_DATABASE";
+NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebuildDatabase";
 
 @implementation GDICoreDataStack {
     NSString *_storeName;
@@ -89,7 +89,7 @@ NSString * const CORE_DATA_STACK_DID_REBUILD_DATABASE = @"CORE_DATA_STACK_DID_RE
                                                                                                  error:&error];
                     
                     if (store != nil) {
-                        [[NSNotificationCenter defaultCenter] postNotificationName:CORE_DATA_STACK_DID_REBUILD_DATABASE object:self];
+                        [[NSNotificationCenter defaultCenter] postNotificationName:GDICoreDataStackDidRebuildDatabase object:self];
                     }
                     else {
                         NSLog(@"error opening persistent store, giving up");
