@@ -1,1891 +1,1485 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0041FF58A8A74FBA84664CFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01AA3A87E5A44585933C6AE0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>025CFD8C620A4BFDA3A6C44A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A9FF26A625845AFA54E70B9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BCC1F03D626143D49EE4ED99</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>ED04498A6018455F955EFF72</string>
-			<key>remoteInfo</key>
-			<string>GDICoreDataKit</string>
-		</dict>
-		<key>0CF4FE8CC12B4B46A64003CC</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C4D8300B2E0D417795EDFA3B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Tests-GDICoreDataKit-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0D4F0ADF6C6349079574948B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1AA52DE4F4784B8B8B97C068</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>110EFD9BE80F4DBBBA939AAD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7373262889BE4DB89887597A</string>
-				<string>1361AED8EAE44E82B4D0217C</string>
-				<string>CB207ECE35444D2281E0E183</string>
-				<string>BBC1E121B0964B049C25672E</string>
-				<string>94956D43B3764C71814E3BF3</string>
-				<string>4FAB074731D24B7F8420CB1F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-GDICoreDataKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1361AED8EAE44E82B4D0217C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AA52DE4F4784B8B8B97C068</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D74E90A39CBD41A79D0CBBED</string>
-				<string>DA74DA95C3FB4566B26FBEDF</string>
-				<string>7D1D6E1A32624F00B3A91F41</string>
-				<string>254CACE75F1648D79753679D</string>
-				<string>F6AE3316B79B4DD3BE11FDD4</string>
-				<string>6C6E8EE663904BD39ECC4F95</string>
-				<string>F5939DE17860424E9549C738</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GDICoreDataKit</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B6B27FCEF4E4BC1A10FB46B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E007E4A534084CC48A9779BC</string>
-				<string>E7D3D810652A45B9826F4191</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1C7BD5444F394D9AB02DA959</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DBA9182011FF479A95873B38</string>
-				<string>0CF4FE8CC12B4B46A64003CC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1FBE9866CA764CBA90E3033B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1FD5072AF3A440098B3426CB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>446BF51865F24521B0C970DF</string>
-				<string>95122551A0784A319B227589</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>21A40A395F2B4B3A978647C4</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BCC1F03D626143D49EE4ED99</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A50CEA003A6248D8870581CB</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-GDICoreDataKit</string>
-		</dict>
-		<key>2323882DB1884BFFAF5C4AE6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>ED04498A6018455F955EFF72</string>
-			<key>targetProxy</key>
-			<string>F78DD4FEF02047BD9CEBB61A</string>
-		</dict>
-		<key>24B66BD4443647F38C7B802A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>110EFD9BE80F4DBBBA939AAD</string>
-				<string>E61A094D9C96481A8D335DBA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>254CACE75F1648D79753679D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSManagedObject+GDIClone.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSManagedObject+GDIClone.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>277131C4CDD1455D90FA3DB1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F6AE3316B79B4DD3BE11FDD4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29743435D01C45CAA21C8E50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D74E90A39CBD41A79D0CBBED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2994188B27AF492A8EE03C7B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7373262889BE4DB89887597A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>2CC4222924084E2996AA6A8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-GDICoreDataKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30BD5EA29F8D4BAABFABC2AC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F6AE3316B79B4DD3BE11FDD4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>327E4A5399A641568F0EEDC6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C377184DD23B45FBB13D8464</string>
-				<string>3AC2358EAD364E7D8502EEAD</string>
-				<string>B2873E2212FA42AC9877D896</string>
-				<string>6CB032AA56C64A4DA47085E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>391AF1FD72ED43E9B4766F47</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7373262889BE4DB89887597A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3AC2358EAD364E7D8502EEAD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>254CACE75F1648D79753679D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>3E7646D1B735478F800221F4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>94218CFBF7EC41D9B3F8D055</string>
-				<string>60F46E12AC6245A99CA985E8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>40ACB3B427CF4CB0AAA5028B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2994188B27AF492A8EE03C7B</string>
-				<string>391AF1FD72ED43E9B4766F47</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>42F03FD8BF344BD4B2852F99</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>F35403B4005D4C1FBE306026</string>
-			<key>targetProxy</key>
-			<string>62828E7F93C045BFB336BA9B</string>
-		</dict>
-		<key>446BF51865F24521B0C970DF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E41C616A1D0C4EE7BBC8F388</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>448B27040B6347F0B9AE735C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D1D6E1A32624F00B3A91F41</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>468EF302B213477F92B2FFD8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D74E90A39CBD41A79D0CBBED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B98A27611C4464A9FE631B6</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4F5F78739FF84D1695FFE98B</string>
-				<string>BCDF53AE08FC4AE28D2414DA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4CD2CF6B03704959A39F7513</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F2304387F6E94EAB841E26EE</string>
-				<string>E2F8053A88CE43BFA2E50E73</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4F5F78739FF84D1695FFE98B</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4FAB074731D24B7F8420CB1F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>500E808633CB484D8D3375F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-GDICoreDataKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50FB29D9268F4056B6E9881F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>254CACE75F1648D79753679D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>52D8D9627C364B83B960A63D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>557F35633C3443F5888201CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-GDICoreDataKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60F46E12AC6245A99CA985E8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0041FF58A8A74FBA84664CFD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>62828E7F93C045BFB336BA9B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BCC1F03D626143D49EE4ED99</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F35403B4005D4C1FBE306026</string>
-			<key>remoteInfo</key>
-			<string>Pods-GDICoreDataKit-GDICoreDataKit</string>
-		</dict>
-		<key>6877DDAAC8D84E0FA720B058</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C6E8EE663904BD39ECC4F95</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6C25D480679246A4A12C22A3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AF59B8A8B9F64FEE89CF8EFE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6C6E8EE663904BD39ECC4F95</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSManagedObject+GDIOrderedSetAccessors.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSManagedObject+GDIOrderedSetAccessors.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CB032AA56C64A4DA47085E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>500E808633CB484D8D3375F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6DD47A82290A4D44AEA2E34F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2CC4222924084E2996AA6A8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7373262889BE4DB89887597A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>748BE4A102474105A0FE5FEC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52D8D9627C364B83B960A63D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D1D6E1A32624F00B3A91F41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSManagedObject+GDIClone.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSManagedObject+GDIClone.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D65A1B5226C4668B2D38FD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-GDICoreDataKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EFFBC10EE794C26BE7DCE1A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52D8D9627C364B83B960A63D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8062E5C3CE8A4DEAA19BDBD8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>748BE4A102474105A0FE5FEC</string>
-				<string>E62178E55C464179BF54D582</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>82EF5136435E49BBBC989C6C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-GDICoreDataKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>832ADD623582434E922EC731</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AD47E2FE37624E2886FA1D96</string>
-				<string>8822FD690B6F4A9F854CAE1A</string>
-				<string>AF3AD6F868564CE683B0F493</string>
-				<string>988593DE447241ECA3F5DE5F</string>
-				<string>82EF5136435E49BBBC989C6C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>834DB28FEF1849499C5F3C6B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>01AA3A87E5A44585933C6AE0</string>
-				<string>0D4F0ADF6C6349079574948B</string>
-				<string>D83B3AE8ADE6462398D83D9C</string>
-				<string>832ADD623582434E922EC731</string>
-				<string>24B66BD4443647F38C7B802A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>841C7A3657914168B6FA4315</key>
-		<dict>
-			<key>fileRef</key>
-			<string>025CFD8C620A4BFDA3A6C44A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8822FD690B6F4A9F854CAE1A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GDICoreDataKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>898427BD50134A68B8627111</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A11386652074CE0AACAEE0B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-GDICoreDataKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B3B98A80FDB4E9A9C3DE38E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D1D6E1A32624F00B3A91F41</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>910253665EFB491E908DEB70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>94218CFBF7EC41D9B3F8D055</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0041FF58A8A74FBA84664CFD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>94956D43B3764C71814E3BF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95122551A0784A319B227589</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E41C616A1D0C4EE7BBC8F388</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>988593DE447241ECA3F5DE5F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9AABFAFD8D784FDC872A44CE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F3DFE207873B4C68A4BE6A2E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A50CEA003A6248D8870581CB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1C7BD5444F394D9AB02DA959</string>
-			<key>buildPhases</key>
-			<array>
-				<string>327E4A5399A641568F0EEDC6</string>
-				<string>B1E000712DB2425588D2EA60</string>
-				<string>C539FD6CC8054ADBB156E3FF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A9CD61540EF24A5882C65342</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-GDICoreDataKit</string>
-			<key>productName</key>
-			<string>Pods-Tests-GDICoreDataKit</string>
-			<key>productReference</key>
-			<string>82EF5136435E49BBBC989C6C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>A9CD61540EF24A5882C65342</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>ED04498A6018455F955EFF72</string>
-			<key>targetProxy</key>
-			<string>0A9FF26A625845AFA54E70B9</string>
-		</dict>
-		<key>AD47E2FE37624E2886FA1D96</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GDICoreDataKit.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AF3AD6F868564CE683B0F493</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GDICoreDataKit-GDICoreDataKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AF59B8A8B9F64FEE89CF8EFE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52D8D9627C364B83B960A63D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFC57B6BB8ED4BE4A3B7E66C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>A50CEA003A6248D8870581CB</string>
-			<key>targetProxy</key>
-			<string>21A40A395F2B4B3A978647C4</string>
-		</dict>
-		<key>B1D361FEAEC8498FB72C4132</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B1E000712DB2425588D2EA60</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C4B29E4B09C6478F827AC8C0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B2873E2212FA42AC9877D896</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C6E8EE663904BD39ECC4F95</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B872C12D2F4D42D4A02D1549</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>841C7A3657914168B6FA4315</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BBC1E121B0964B049C25672E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCC1F03D626143D49EE4ED99</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4B98A27611C4464A9FE631B6</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>834DB28FEF1849499C5F3C6B</string>
-			<key>productRefGroup</key>
-			<string>832ADD623582434E922EC731</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>ED04498A6018455F955EFF72</string>
-				<string>F7197E29CFB74CFABFD9CB0C</string>
-				<string>F35403B4005D4C1FBE306026</string>
-				<string>BF9DD657B2B74B7BB01696B8</string>
-				<string>A50CEA003A6248D8870581CB</string>
-			</array>
-		</dict>
-		<key>BCDF53AE08FC4AE28D2414DA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BF9DD657B2B74B7BB01696B8</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3E7646D1B735478F800221F4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B872C12D2F4D42D4A02D1549</string>
-				<string>4CD2CF6B03704959A39F7513</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>AFC57B6BB8ED4BE4A3B7E66C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>988593DE447241ECA3F5DE5F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C377184DD23B45FBB13D8464</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DA74DA95C3FB4566B26FBEDF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C4B29E4B09C6478F827AC8C0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52D8D9627C364B83B960A63D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4D8300B2E0D417795EDFA3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-GDICoreDataKit-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C539FD6CC8054ADBB156E3FF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>29743435D01C45CAA21C8E50</string>
-				<string>8B3B98A80FDB4E9A9C3DE38E</string>
-				<string>277131C4CDD1455D90FA3DB1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CB207ECE35444D2281E0E183</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB48B887B8B3470E85DC54C0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DA74DA95C3FB4566B26FBEDF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>D11C3C312C604920879A75BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D74E90A39CBD41A79D0CBBED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GDICoreDataStack.h</string>
-			<key>path</key>
-			<string>Pod/Classes/GDICoreDataStack.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D83B3AE8ADE6462398D83D9C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7EFFBC10EE794C26BE7DCE1A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA74DA95C3FB4566B26FBEDF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GDICoreDataStack.m</string>
-			<key>path</key>
-			<string>Pod/Classes/GDICoreDataStack.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBA9182011FF479A95873B38</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C4D8300B2E0D417795EDFA3B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-Tests-GDICoreDataKit-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DBC8504F29BA4B319C28F2D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEB4D1FBEC684B6FA164F125</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E007E4A534084CC48A9779BC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E2F8053A88CE43BFA2E50E73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>82EF5136435E49BBBC989C6C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E41C616A1D0C4EE7BBC8F388</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-GDICoreDataKit-GDICoreDataKit-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E61A094D9C96481A8D335DBA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0041FF58A8A74FBA84664CFD</string>
-				<string>FDD75F23EA444979A12E903E</string>
-				<string>910253665EFB491E908DEB70</string>
-				<string>025CFD8C620A4BFDA3A6C44A</string>
-				<string>DBC8504F29BA4B319C28F2D6</string>
-				<string>D11C3C312C604920879A75BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E62178E55C464179BF54D582</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF3AD6F868564CE683B0F493</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7D3D810652A45B9826F4191</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>ED04498A6018455F955EFF72</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1B6B27FCEF4E4BC1A10FB46B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DEB4D1FBEC684B6FA164F125</string>
-				<string>B1D361FEAEC8498FB72C4132</string>
-				<string>1FBE9866CA764CBA90E3033B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GDICoreDataKit</string>
-			<key>productName</key>
-			<string>GDICoreDataKit</string>
-			<key>productReference</key>
-			<string>AD47E2FE37624E2886FA1D96</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>F2304387F6E94EAB841E26EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52D8D9627C364B83B960A63D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F35403B4005D4C1FBE306026</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1FD5072AF3A440098B3426CB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F8539679393D4C7CB4A94B93</string>
-				<string>6C25D480679246A4A12C22A3</string>
-				<string>F3A48F2BEE0B4D028D90FC8E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2323882DB1884BFFAF5C4AE6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-GDICoreDataKit-GDICoreDataKit</string>
-			<key>productName</key>
-			<string>Pods-GDICoreDataKit-GDICoreDataKit</string>
-			<key>productReference</key>
-			<string>AF3AD6F868564CE683B0F493</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F3A48F2BEE0B4D028D90FC8E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>468EF302B213477F92B2FFD8</string>
-				<string>448B27040B6347F0B9AE735C</string>
-				<string>30BD5EA29F8D4BAABFABC2AC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F3DFE207873B4C68A4BE6A2E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BBC1E121B0964B049C25672E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5939DE17860424E9549C738</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>557F35633C3443F5888201CE</string>
-				<string>E41C616A1D0C4EE7BBC8F388</string>
-				<string>2CC4222924084E2996AA6A8E</string>
-				<string>898427BD50134A68B8627111</string>
-				<string>8A11386652074CE0AACAEE0B</string>
-				<string>C4D8300B2E0D417795EDFA3B</string>
-				<string>500E808633CB484D8D3375F2</string>
-				<string>7D65A1B5226C4668B2D38FD3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F6AE3316B79B4DD3BE11FDD4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSManagedObject+GDIOrderedSetAccessors.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSManagedObject+GDIOrderedSetAccessors.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7197E29CFB74CFABFD9CB0C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>40ACB3B427CF4CB0AAA5028B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9AABFAFD8D784FDC872A44CE</string>
-				<string>8062E5C3CE8A4DEAA19BDBD8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>42F03FD8BF344BD4B2852F99</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-GDICoreDataKit</string>
-			<key>productName</key>
-			<string>Pods-GDICoreDataKit</string>
-			<key>productReference</key>
-			<string>8822FD690B6F4A9F854CAE1A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F78DD4FEF02047BD9CEBB61A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BCC1F03D626143D49EE4ED99</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>ED04498A6018455F955EFF72</string>
-			<key>remoteInfo</key>
-			<string>GDICoreDataKit</string>
-		</dict>
-		<key>F8539679393D4C7CB4A94B93</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CB48B887B8B3470E85DC54C0</string>
-				<string>50FB29D9268F4056B6E9881F</string>
-				<string>6877DDAAC8D84E0FA720B058</string>
-				<string>6DD47A82290A4D44AEA2E34F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FDD75F23EA444979A12E903E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>BCC1F03D626143D49EE4ED99</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E990B5016F40CDA0BAC02E /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 11903591A5574431BD0D8B3F /* EXPBlockDefinedMatcher.h */; };
+		01778473EC0E424C8EC4C19D /* SPTReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E67259E8E8344B589E3CB12 /* SPTReporter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0717AF2DF312462388871190 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C66CAE49E2F401C9A5489BA /* EXPDoubleTuple.m */; };
+		0B869D539053473E90B58306 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */; };
+		106F8D8711C24AC0ADA7CDD9 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDCEDCA051E4C718D6DBE01 /* EXPMatchers+beKindOf.h */; };
+		11D2E9A606944CA7BE1D882C /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D19C88BC284492ABE130C7 /* EXPMatchers+beLessThan.m */; };
+		13EE0904DD1643C0B7EF2975 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 07847C2CEFA54A89958954AF /* EXPMatcherHelpers.m */; };
+		14900BCADE0C485AA29162BE /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A95988B5CA4DE690141660 /* EXPMatchers+raise.m */; };
+		18E5B36716324F54857D79F5 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = DE95A6AA0E1F40D9A6F575DD /* EXPMatchers+beNil.h */; };
+		199683D27C704D3C9C4F27EB /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D2B5DDFBF94F2180026ABA /* EXPMatchers+contain.m */; };
+		1EA05DBA8E2D48DDB2DF8706 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBF1470E07B4154BA29A99F /* EXPMatchers+beSubclassOf.m */; };
+		1EAE935B173740B3AC9F1B8D /* libPods-Tests-Specta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8AB9DBC8784B01B67943DE /* libPods-Tests-Specta.a */; };
+		1F79C38A6C804308842A6B2C /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AE87A42AE64E969C3EF3D6 /* EXPMatchers+raiseWithReason.m */; };
+		20CD4CD3DE7A4B9794EEB375 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1DCE22B7E1427C88D7C8A3 /* EXPMatchers+beSupersetOf.m */; };
+		2239C077424B4037923FCC4D /* NSManagedObject+GDIClone.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5705D472244E9EBF13A489 /* NSManagedObject+GDIClone.h */; };
+		223DCC6955B640988E6D23C7 /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BD50D437D642DF81834834 /* EXPMatchers+beTruthy.m */; };
+		23D043DCEEC5484682BD617C /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = B28F143C003B4F15B94C0C53 /* EXPMatchers+beGreaterThan.m */; };
+		25139F47E2774AEABEA2C7AB /* SPTXCTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0B709961774957B98FC124 /* SPTXCTestCase.h */; };
+		289716DB90AE41CC97ABC968 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7348AD246144E3B121E5EB /* EXPMatchers+beFalsy.h */; };
+		2E10ABB6CF924A799B708D04 /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 591573BE2D73412DBC543BED /* Expecta.h */; };
+		2F132B3D3AA443049CD2CCBB /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0A6022E81E4307A1EBA174 /* ExpectaSupport.h */; };
+		2F3DC39FFD3E44F995140E6B /* Pods-GDICoreDataKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F83221D4142D9B632894C /* Pods-GDICoreDataKit-dummy.m */; };
+		30EC5559A1B545CDA57091A9 /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0319DE051A4E8B9BF9DFC5 /* SPTExample.h */; };
+		312FF036727B4555A1F97942 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = C83720AFD76247309C02DFCF /* SPTSharedExampleGroups.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		31F48FD0D0E94450A2D85211 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = F67B91E99D1447EF9A1CD4A1 /* EXPMatchers+beInTheRangeOf.h */; };
+		32697A00A3C843DB8A9DE00D /* Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E454CCA03D4F01891572C2 /* Expecta.m */; };
+		3749CD05A32D4E03959D0054 /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = B7521269BE3F4AABA6ACFD67 /* EXPMatchers+beCloseTo.m */; };
+		3B154620514449D2BAF29D7B /* EXPBackwardCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = E48476C9311B49AC9DE84314 /* EXPBackwardCompatibility.h */; };
+		40067CBD69154DFDA0064C2E /* NSManagedObject+GDIOrderedSetAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 939F3FC54C2A463D84D30941 /* NSManagedObject+GDIOrderedSetAccessors.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		402700C75E224E26AE6D2A3D /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1CAD2BD432488D9C4759C8 /* EXPExpect.h */; };
+		4310C4BF6FAD465BAA8E715D /* NSManagedObject+GDIClone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8324B98A4836421DA5DB8525 /* NSManagedObject+GDIClone.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		44D5541A1BBE49AE8A379E6A /* GDICoreDataStack.h in Headers */ = {isa = PBXBuildFile; fileRef = A709BC43FAFD46F3A440935A /* GDICoreDataStack.h */; };
+		456570E3187A4DB78539B2D4 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7083D2A4684337AFE077D9 /* SPTExampleGroup.h */; };
+		45A039B009FC4E29B0855E75 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2484E7992344A58C3D24D8 /* EXPMatchers+beLessThanOrEqualTo.h */; };
+		47F64EE9F43445AF93277691 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6007ADFB029B4D0C9B281C27 /* EXPMatcher.h */; };
+		48AB719711E34325B2E4F07E /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 25838B5541DE49C599CD941E /* EXPMatchers+equal.m */; };
+		4967ACB2B0C74AA5B5D9F5B6 /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C6A7B37D934EDFAFEAB6AD /* EXPMatchers+beSupersetOf.h */; };
+		49FB945C93964AD098FF7F42 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 672967AB12394BDABC70EE1F /* EXPMatchers+conformTo.h */; };
+		4B78F3270A0A473FBF13FC16 /* SPTXCTestReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 71149B94856C4F5EA846570E /* SPTXCTestReporter.h */; };
+		502D00D575D941849DE3F4FF /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A70C0A27C44CF887F08F1F /* EXPFloatTuple.m */; };
+		53A023950C2D49E7A18223F8 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3184C53077C2416ABB348133 /* EXPMatchers+beInstanceOf.m */; };
+		5587A02561FF4DB6A9231EB8 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F2AAFA2AC1E84EF0BD6F0B09 /* EXPMatchers+contain.h */; };
+		564A93C097104C66B75768B2 /* XCTestRun+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B1CCE49F7C4A70BCFFFBA5 /* XCTestRun+Specta.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		592341C68C5842368C57097D /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B50FC57F38A41CBA68A6F86 /* EXPDoubleTuple.h */; };
+		59BB5E350357439FA40133AC /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE40244E0BD4BBBB89765FB /* EXPMatchers.h */; };
+		5D5F8AD9293C40B7B515B26E /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D1644307044490BC7907D6 /* EXPMatchers+haveCountOf.m */; };
+		5D716B65FD4B4D5BAAEFABBC /* SPTNestedReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2787A3C677A44EED80BDC3E2 /* SPTNestedReporter.h */; };
+		5D7E0B44F74A480C80123A2F /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 200402FC883B4052B7587642 /* XCTestCase+Specta.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		60130FF8407F4B18B04134EF /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D029DAD600145F6A0FC5C3F /* EXPBlockDefinedMatcher.m */; };
+		60257ABE8EC3490B867F3C86 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA24DDE89124EC4AD39AE0A /* EXPMatchers+raise.h */; };
+		62D1273CEB3C4DB59D6D0369 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E86395C49C94E11B2F49160 /* Pods-Tests-dummy.m */; };
+		63085FF56ED74860ACFB0E4F /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3745A37EB2CB40BCB31A23E8 /* EXPMatchers+beInstanceOf.h */; };
+		67C70290C8AE41DEA781F114 /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C070302D2B493F96970043 /* EXPMatchers+equal.h */; };
+		68395484A22847C9AE040430 /* SpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D410EAFC624478B6D7BE45 /* SpectaSupport.h */; };
+		6853FA92DEF446B6A2FDFF14 /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = AC98488AE72C4A33BE2559F5 /* EXPExpect.m */; };
+		68C66373949F473C90444959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */; };
+		6C6DCC1892E441AFA5F122C9 /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DAE60AF21E498986ECF7E3 /* EXPMatchers+respondTo.m */; };
+		6CBFF8ACA911422E993DD60C /* NSManagedObject+GDIClone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8324B98A4836421DA5DB8525 /* NSManagedObject+GDIClone.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		70FC42EB00684588A1563346 /* SPTXCTestReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF97A7C275C24A8BA119900F /* SPTXCTestReporter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7109178ED1B4401AA829BEE4 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0A2F95FFEE418093F20819 /* SpectaUtility.h */; };
+		73A78C3E3426418E89C679C4 /* NSManagedObject+GDIOrderedSetAccessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7904B7E9DC014618BC3B3C89 /* NSManagedObject+GDIOrderedSetAccessors.h */; };
+		745F34E0BCA249119DB8CB6E /* SPTNestedReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D734A7B79294C34B16FF94A /* SPTNestedReporter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7665A4DEE3E34AB2AA00CD45 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 674AEB0E0FB24880A7916CB7 /* NSObject+Expecta.h */; };
+		78F325A69B1D4FC0844C40F7 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2F420D210B478DB3029C0E /* Specta.h */; };
+		7B824945E5D3490093796F44 /* GDICoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA8885210DC4267B101FA28 /* GDICoreDataStack.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		85F092F49BE1427188D51ADD /* XCTestRun+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 469DA0E9033A43F2B20C9C38 /* XCTestRun+Specta.h */; };
+		888B21E3B13B48D5B7708026 /* NSManagedObject+GDIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E40FF3F14F889E24F66C /* NSManagedObject+GDIHelpers.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8928A6451F2A43E8AD63FC71 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8744AC8E2DE548B2960031F1 /* EXPMatchers+respondTo.h */; };
+		89CE48AA9A094E17AA98BA37 /* Pods-Tests-GDICoreDataKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA676BD3AA4CCAAE68A259 /* Pods-Tests-GDICoreDataKit-dummy.m */; };
+		8D4B182F6B3E47239B67D256 /* GDICoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA8885210DC4267B101FA28 /* GDICoreDataStack.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		90F6CC3D9A1141559D8BF6F8 /* Pods-Tests-Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 152B042C3AE24C37A473FEED /* Pods-Tests-Expecta-dummy.m */; };
+		95A39508486540F290CA5C2A /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0725DC62223A480CB8F60235 /* ExpectaSupport.m */; };
+		975E1DB1D5B844F5AD6D7867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */; };
+		97D218D42DA048149A82D541 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BF0B0E2A714683A4179487 /* EXPMatchers+beGreaterThan.h */; };
+		98965D54CCDD495D909D6ACA /* libPods-Tests-GDICoreDataKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA2B183037C48E686EBD452 /* libPods-Tests-GDICoreDataKit.a */; };
+		9E79CAA5CF3E43A5A4A10527 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7387B3C9B12C4D34B13D399A /* EXPMatchers+beGreaterThanOrEqualTo.h */; };
+		9F8273D4D3104E8AA1159DB3 /* libPods-GDICoreDataKit-GDICoreDataKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E03A348BD54EC7A44C55F1 /* libPods-GDICoreDataKit-GDICoreDataKit.a */; };
+		A0649548E36542809E65CA33 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = C25EBD1886B341AE9BCBFDA4 /* EXPMatchers+conformTo.m */; };
+		A21DD007E05846D784B0948B /* Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = FD850B0C8EEC482B9410D664 /* Specta.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A6EDE313A12341EDA2C631B7 /* EXPMatchers+notify.m in Sources */ = {isa = PBXBuildFile; fileRef = 2682F64EF764434E87C5C260 /* EXPMatchers+notify.m */; };
+		A7A9A1BDBD2F46C98E621FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */; };
+		A826853A168243898845CBE7 /* GDICoreDataStack.h in Headers */ = {isa = PBXBuildFile; fileRef = A709BC43FAFD46F3A440935A /* GDICoreDataStack.h */; };
+		AAC956CAA4354F31815C57B1 /* EXPBackwardCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 74ACCBD9215E47889A3BAC41 /* EXPBackwardCompatibility.m */; };
+		ABCB0251B0F7408DB26023F4 /* NSManagedObject+GDIClone.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5705D472244E9EBF13A489 /* NSManagedObject+GDIClone.h */; };
+		AE35AEB8464A4CA59B6E4A02 /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 547FBB334010483E9E682972 /* EXPMatchers+haveCountOf.h */; };
+		AF3052F4CF0449A9A3D797DF /* Pods-GDICoreDataKit-GDICoreDataKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B198E50276024F08AF5B8A49 /* Pods-GDICoreDataKit-GDICoreDataKit-dummy.m */; };
+		B44CED3437874456BD50B3C2 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CB3D7963A949358040FAAC /* EXPMatchers+beginWith.h */; };
+		B5A9F9B87DAE481097A6B21E /* NSManagedObject+GDIOrderedSetAccessors.m in Sources */ = {isa = PBXBuildFile; fileRef = 939F3FC54C2A463D84D30941 /* NSManagedObject+GDIOrderedSetAccessors.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B691F1D080AC4795B4792A9E /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = F69296902A9D466CA2FEBC8B /* EXPMatchers+beKindOf.m */; };
+		B7102CC84C69439FBA58BBAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */; };
+		B93F203BF0C84354A5B56136 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D3E972450C487082215F73 /* EXPMatchers+endWith.h */; };
+		B9ECA3C588B54131A96EB4A5 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = BADD748CD333440FB4800FDE /* NSValue+Expecta.m */; };
+		BAF73C21D1A0462B986A49FA /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = EF513F9E50FB4FAA82692A71 /* EXPMatchers+beSubclassOf.h */; };
+		BD184F81F03843799E250208 /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CD17BECF64D40D0A23F3DB6 /* EXPMatcherHelpers.h */; };
+		C05647373DF14B4F98863EC0 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 090342D4ECE74ACBA44283C8 /* EXPMatchers+beGreaterThanOrEqualTo.m */; };
+		C115F20800B848529EF681CD /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 8960D8D77BE6478B9C4E2B2C /* EXPFloatTuple.h */; };
+		C3363788A6CF49BA9A6EA605 /* NSManagedObject+GDIHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B1FB6007294807A5E0A597 /* NSManagedObject+GDIHelpers.h */; };
+		C3B1777A1E5848DA94DBB48C /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 94162BF1B80645398281CE3D /* NSValue+Expecta.h */; };
+		C5A6585229934CFCBB56BC44 /* SPTXCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = E946F1F269994CA193B853E5 /* SPTXCTestCase.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CAD6FDD2A52C4475AE23CDBC /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = ED375D04DD8F4CE5BCB37BAB /* SPTSpec.h */; };
+		CB02D25F5D654B2E9A118916 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E6D4DBADCB4BC49160B389 /* SPTExample.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CC0F69AAD4754E31A7463369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */; };
+		CCBDC0E6D1014E6A963515C2 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABD0961E6454C5FB311F7EB /* EXPMatchers+beLessThan.h */; };
+		CD5E5AA838444D119D74C955 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79E65D479544CF88E236C5 /* EXPMatchers+beInTheRangeOf.m */; };
+		CEB96211FE0647E1914E636C /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C1071D4DFC884733BD604BEB /* SPTSpec.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D2B2A23490AE40D1B06D290F /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B5A6856C9E4ED198B7D515 /* SpectaTypes.h */; };
+		D43DB5F951254203BB80C9B6 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC164E60FCE4E59816C9D20 /* XCTestCase+Specta.h */; };
+		D54314BF5E78411FB076BBE6 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB29AB23D59488AAD6DA425 /* EXPUnsupportedObject.m */; };
+		D5F33569A573406C85B200E6 /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AFC0B4DB504669ACEAA8E7 /* EXPMatchers+beFalsy.m */; };
+		D8BAC899609C44629EF6DF2A /* libPods-Tests-Expecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE5A61126154ABA9FA5DDBA /* libPods-Tests-Expecta.a */; };
+		D8E17CF2B324433E850985F0 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE16A822C342A4BA47D599 /* EXPMatchers+beLessThanOrEqualTo.m */; };
+		DA6B4414210E423A9B6C4988 /* SPTReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5BE937A22740FF96407EE9 /* SPTReporter.h */; };
+		DC0364BDEE654F0DAB0617FE /* NSManagedObject+GDIOrderedSetAccessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7904B7E9DC014618BC3B3C89 /* NSManagedObject+GDIOrderedSetAccessors.h */; };
+		DCA0CE2A3B7146C1831C10BB /* Pods-Tests-Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87272039091840109AFCE76F /* Pods-Tests-Specta-dummy.m */; };
+		DCF58B4BBD39486A837A175F /* EXPMatchers+notify.h in Headers */ = {isa = PBXBuildFile; fileRef = 874D2335108C4E1FB9EA88BC /* EXPMatchers+notify.h */; };
+		DE9C5D8EFEB24FB78B9332AA /* XCTestLog+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 915CB80C52B14C2D8A9B96A5 /* XCTestLog+Specta.h */; };
+		DFAA803775084DA68ACEE096 /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B05E568E69431899ED3B5A /* EXPMatchers+beginWith.m */; };
+		E018CBD3E790471D8F39F1D2 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F145409E9E45858EA7C6D6 /* SPTExampleGroup.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E8F8E7FEE2214BD1861D99E8 /* NSManagedObject+GDIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE2E40FF3F14F889E24F66C /* NSManagedObject+GDIHelpers.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E9162E7C73F64C68B4A84091 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 115272C3773E467DA4F4A546 /* SPTSharedExampleGroups.h */; };
+		E97AD13516024FE1813086BF /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 513A8D2D7806423AB06E85E2 /* EXPMatchers+beNil.m */; };
+		E9E1EAAB456A46EF99E85ED9 /* NSManagedObject+GDIHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B1FB6007294807A5E0A597 /* NSManagedObject+GDIHelpers.h */; };
+		EAF088F09BFC40A2B488A9C6 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A304CBA158A480A8C58A157 /* EXPDefines.h */; };
+		EB96B0E8E3F54BA0A62BDCF0 /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B57CE4431A4340B2587405 /* EXPMatchers+beTruthy.h */; };
+		EB97B04F958F4913BC4FE4A8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = 7610DDC2A6984C60825633CB /* EXPMatchers+raiseWithReason.h */; };
+		EF5311ED75664A639D9E5303 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F48A064DD944FDF898DB171 /* EXPMatchers+beCloseTo.h */; };
+		F39BE1EB5D9949F491A7F1E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52B9A686DD745F0B168CEF6 /* XCTest.framework */; };
+		F4DDF88804EC489DB1752E36 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = CB50B4A61EEB4AFC9D236607 /* EXPMatchers+beIdenticalTo.h */; };
+		F74D542FDD8D4D1A8E5DE228 /* XCTestLog+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C0BE80D74849B48D13EB4E /* XCTestLog+Specta.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		FB2DA2EFB7714A82A76C85E0 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9191A5B8EC40188F5CCB6B /* SpectaUtility.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		FCCF4D3B185E4EBFB7A66703 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C22C3ED34E248AF987A3C03 /* EXPMatchers+endWith.m */; };
+		FCF2E12FA08F49FF90A40E6C /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 583F3A397A8341D5B3DE6FBF /* EXPUnsupportedObject.h */; };
+		FD3E93C280FE448EBF47C0B8 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E02BC58D994846B01BD746 /* EXPMatchers+beIdenticalTo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2540265214B2466AAAEF7978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31BC3A24B4144BBB911A1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267C6A40C0BB4B938A10E6F5;
+			remoteInfo = "Pods-Tests-GDICoreDataKit";
+		};
+		2F419C19EE0348AE957C0DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31BC3A24B4144BBB911A1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61233D00DA0344F08178079D;
+			remoteInfo = "Pods-Tests-Specta";
+		};
+		66F76BBA4AC04BD0A9A7C2B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31BC3A24B4144BBB911A1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD8A5C00671040328E0773EE;
+			remoteInfo = "Pods-Tests-Expecta";
+		};
+		B37FE754E511463292B37DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E31BC3A24B4144BBB911A1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECA1D375F4F459A8A73A201;
+			remoteInfo = "Pods-GDICoreDataKit-GDICoreDataKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0725DC62223A480CB8F60235 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = src/ExpectaSupport.m; sourceTree = "<group>"; };
+		07847C2CEFA54A89958954AF /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = src/matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
+		07E454CCA03D4F01891572C2 /* Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Expecta.m; path = src/Expecta.m; sourceTree = "<group>"; };
+		090342D4ECE74ACBA44283C8 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "src/matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
+		0D029DAD600145F6A0FC5C3F /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = src/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
+		10D410EAFC624478B6D7BE45 /* SpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaSupport.h; path = src/SpectaSupport.h; sourceTree = "<group>"; };
+		115272C3773E467DA4F4A546 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = src/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
+		11903591A5574431BD0D8B3F /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = src/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
+		14C070302D2B493F96970043 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "src/matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
+		152B042C3AE24C37A473FEED /* Pods-Tests-Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-Expecta-dummy.m"; sourceTree = "<group>"; };
+		18B1FB6007294807A5E0A597 /* NSManagedObject+GDIHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+GDIHelpers.h"; path = "Pod/Classes/NSManagedObject+GDIHelpers.h"; sourceTree = "<group>"; };
+		1BB74BE6E4594EF8B5F55A8E /* Pods-Tests-GDICoreDataKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-GDICoreDataKit-Private.xcconfig"; sourceTree = "<group>"; };
+		1E86395C49C94E11B2F49160 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		1F48A064DD944FDF898DB171 /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "src/matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
+		200402FC883B4052B7587642 /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "src/XCTestCase+Specta.m"; sourceTree = "<group>"; };
+		21D19C88BC284492ABE130C7 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "src/matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
+		25838B5541DE49C599CD941E /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "src/matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
+		25D2B5DDFBF94F2180026ABA /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "src/matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
+		2682F64EF764434E87C5C260 /* EXPMatchers+notify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+notify.m"; path = "src/matchers/EXPMatchers+notify.m"; sourceTree = "<group>"; };
+		2787A3C677A44EED80BDC3E2 /* SPTNestedReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTNestedReporter.h; path = src/SPTNestedReporter.h; sourceTree = "<group>"; };
+		29B5A6856C9E4ED198B7D515 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = src/SpectaTypes.h; sourceTree = "<group>"; };
+		29DAE60AF21E498986ECF7E3 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "src/matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
+		2D0A2F95FFEE418093F20819 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = src/SpectaUtility.h; sourceTree = "<group>"; };
+		2D3AD69554EA487A8FECB5BE /* Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch"; sourceTree = "<group>"; };
+		3184C53077C2416ABB348133 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "src/matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
+		3745A37EB2CB40BCB31A23E8 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "src/matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
+		39DA676BD3AA4CCAAE68A259 /* Pods-Tests-GDICoreDataKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-GDICoreDataKit-dummy.m"; sourceTree = "<group>"; };
+		3A304CBA158A480A8C58A157 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = src/EXPDefines.h; sourceTree = "<group>"; };
+		3AA24DDE89124EC4AD39AE0A /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "src/matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
+		3C22C3ED34E248AF987A3C03 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "src/matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
+		405CE3E01C3A49E480FCAAAC /* Pods-GDICoreDataKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDICoreDataKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43B05E568E69431899ED3B5A /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "src/matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
+		44E02BC58D994846B01BD746 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "src/matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
+		469DA0E9033A43F2B20C9C38 /* XCTestRun+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestRun+Specta.h"; path = "src/XCTestRun+Specta.h"; sourceTree = "<group>"; };
+		4A9191A5B8EC40188F5CCB6B /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = src/SpectaUtility.m; sourceTree = "<group>"; };
+		4BDE16A822C342A4BA47D599 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "src/matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
+		4EA2B183037C48E686EBD452 /* libPods-Tests-GDICoreDataKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-GDICoreDataKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F79E65D479544CF88E236C5 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "src/matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
+		513A8D2D7806423AB06E85E2 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "src/matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
+		51D3E972450C487082215F73 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "src/matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
+		547FBB334010483E9E682972 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "src/matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
+		56782E83BF854C2B80A500D1 /* Pods-GDICoreDataKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDICoreDataKit-environment.h"; sourceTree = "<group>"; };
+		583F3A397A8341D5B3DE6FBF /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = src/EXPUnsupportedObject.h; sourceTree = "<group>"; };
+		591573BE2D73412DBC543BED /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = src/Expecta.h; sourceTree = "<group>"; };
+		5B50FC57F38A41CBA68A6F86 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = src/EXPDoubleTuple.h; sourceTree = "<group>"; };
+		6007ADFB029B4D0C9B281C27 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = src/EXPMatcher.h; sourceTree = "<group>"; };
+		62AE87A42AE64E969C3EF3D6 /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "src/matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
+		672967AB12394BDABC70EE1F /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "src/matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
+		674AEB0E0FB24880A7916CB7 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "src/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		68A70C0A27C44CF887F08F1F /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = src/EXPFloatTuple.m; sourceTree = "<group>"; };
+		6ABD0961E6454C5FB311F7EB /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "src/matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
+		71149B94856C4F5EA846570E /* SPTXCTestReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTXCTestReporter.h; path = src/SPTXCTestReporter.h; sourceTree = "<group>"; };
+		7387B3C9B12C4D34B13D399A /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "src/matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
+		74ACCBD9215E47889A3BAC41 /* EXPBackwardCompatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBackwardCompatibility.m; path = src/EXPBackwardCompatibility.m; sourceTree = "<group>"; };
+		7610DDC2A6984C60825633CB /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "src/matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
+		7782790719B420F600C014D1 /* GDICoreDataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GDICoreDataKit.h; path = Pod/Classes/GDICoreDataKit.h; sourceTree = "<group>"; };
+		77BF0B0E2A714683A4179487 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "src/matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
+		7904B7E9DC014618BC3B3C89 /* NSManagedObject+GDIOrderedSetAccessors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+GDIOrderedSetAccessors.h"; path = "Pod/Classes/NSManagedObject+GDIOrderedSetAccessors.h"; sourceTree = "<group>"; };
+		7925CBA81EFC4415AC0F080B /* Pods-Tests-Specta-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Specta-Private.xcconfig"; sourceTree = "<group>"; };
+		7B175D48CA8B4169BE8AA8FD /* Pods-GDICoreDataKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDICoreDataKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C30C17FE0FC42B894F04BF0 /* Pods-GDICoreDataKit-GDICoreDataKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDICoreDataKit-GDICoreDataKit.xcconfig"; sourceTree = "<group>"; };
+		7C66CAE49E2F401C9A5489BA /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = src/EXPDoubleTuple.m; sourceTree = "<group>"; };
+		7CD17BECF64D40D0A23F3DB6 /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = src/matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
+		7DE5A61126154ABA9FA5DDBA /* libPods-Tests-Expecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-Expecta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E67259E8E8344B589E3CB12 /* SPTReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTReporter.m; path = src/SPTReporter.m; sourceTree = "<group>"; };
+		7F264FE1384B4BABB770B083 /* Pods-Tests-Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Expecta.xcconfig"; sourceTree = "<group>"; };
+		7F5BE937A22740FF96407EE9 /* SPTReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTReporter.h; path = src/SPTReporter.h; sourceTree = "<group>"; };
+		8324B98A4836421DA5DB8525 /* NSManagedObject+GDIClone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+GDIClone.m"; path = "Pod/Classes/NSManagedObject+GDIClone.m"; sourceTree = "<group>"; };
+		85A95988B5CA4DE690141660 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "src/matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
+		86B9BF633E2A4C119BA73F6C /* Pods-GDICoreDataKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDICoreDataKit.xcconfig"; sourceTree = "<group>"; };
+		87272039091840109AFCE76F /* Pods-Tests-Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-Specta-dummy.m"; sourceTree = "<group>"; };
+		8744AC8E2DE548B2960031F1 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "src/matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
+		874D2335108C4E1FB9EA88BC /* EXPMatchers+notify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+notify.h"; path = "src/matchers/EXPMatchers+notify.h"; sourceTree = "<group>"; };
+		8782235933244465A6D6F6E6 /* libPods-GDICoreDataKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDICoreDataKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B1CCE49F7C4A70BCFFFBA5 /* XCTestRun+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestRun+Specta.m"; path = "src/XCTestRun+Specta.m"; sourceTree = "<group>"; };
+		8960D8D77BE6478B9C4E2B2C /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = src/EXPFloatTuple.h; sourceTree = "<group>"; };
+		8DE40244E0BD4BBBB89765FB /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = src/matchers/EXPMatchers.h; sourceTree = "<group>"; };
+		8E8493F003244FF6878E5FCA /* Pods-Tests-GDICoreDataKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-GDICoreDataKit.xcconfig"; sourceTree = "<group>"; };
+		8F0319DE051A4E8B9BF9DFC5 /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = src/SPTExample.h; sourceTree = "<group>"; };
+		915CB80C52B14C2D8A9B96A5 /* XCTestLog+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestLog+Specta.h"; path = "src/XCTestLog+Specta.h"; sourceTree = "<group>"; };
+		91F986E8CF08429DAEAA8910 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		939F3FC54C2A463D84D30941 /* NSManagedObject+GDIOrderedSetAccessors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+GDIOrderedSetAccessors.m"; path = "Pod/Classes/NSManagedObject+GDIOrderedSetAccessors.m"; sourceTree = "<group>"; };
+		94162BF1B80645398281CE3D /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "src/NSValue+Expecta.h"; sourceTree = "<group>"; };
+		968D769039164DB6A17D5E87 /* Pods-GDICoreDataKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDICoreDataKit-resources.sh"; sourceTree = "<group>"; };
+		9854F9DA60BD46C18453AB44 /* Pods-Tests-Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Specta.xcconfig"; sourceTree = "<group>"; };
+		9A1DCE22B7E1427C88D7C8A3 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "src/matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
+		9D1CAD2BD432488D9C4759C8 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = src/EXPExpect.h; sourceTree = "<group>"; };
+		9D734A7B79294C34B16FF94A /* SPTNestedReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTNestedReporter.m; path = src/SPTNestedReporter.m; sourceTree = "<group>"; };
+		9EBF1470E07B4154BA29A99F /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "src/matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
+		A4C0BE80D74849B48D13EB4E /* XCTestLog+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestLog+Specta.m"; path = "src/XCTestLog+Specta.m"; sourceTree = "<group>"; };
+		A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A6E03A348BD54EC7A44C55F1 /* libPods-GDICoreDataKit-GDICoreDataKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDICoreDataKit-GDICoreDataKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A709BC43FAFD46F3A440935A /* GDICoreDataStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDICoreDataStack.h; path = Pod/Classes/GDICoreDataStack.h; sourceTree = "<group>"; };
+		A71F83221D4142D9B632894C /* Pods-GDICoreDataKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDICoreDataKit-dummy.m"; sourceTree = "<group>"; };
+		A7A21384850D448AAF89C9BF /* Pods-Tests-Expecta-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-Expecta-Private.xcconfig"; sourceTree = "<group>"; };
+		AB7348AD246144E3B121E5EB /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "src/matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
+		AC98488AE72C4A33BE2559F5 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = src/EXPExpect.m; sourceTree = "<group>"; };
+		B198E50276024F08AF5B8A49 /* Pods-GDICoreDataKit-GDICoreDataKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDICoreDataKit-GDICoreDataKit-dummy.m"; sourceTree = "<group>"; };
+		B28F143C003B4F15B94C0C53 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "src/matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
+		B2D1644307044490BC7907D6 /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "src/matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
+		B7521269BE3F4AABA6ACFD67 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "src/matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
+		BA69F5864F5848BFB9CD8158 /* Pods-Tests-Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-Specta-prefix.pch"; sourceTree = "<group>"; };
+		BADD748CD333440FB4800FDE /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "src/NSValue+Expecta.m"; sourceTree = "<group>"; };
+		BBB29AB23D59488AAD6DA425 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = src/EXPUnsupportedObject.m; sourceTree = "<group>"; };
+		BBE2E40FF3F14F889E24F66C /* NSManagedObject+GDIHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+GDIHelpers.m"; path = "Pod/Classes/NSManagedObject+GDIHelpers.m"; sourceTree = "<group>"; };
+		BC0A6022E81E4307A1EBA174 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = src/ExpectaSupport.h; sourceTree = "<group>"; };
+		BFDFD95658B749E4B360E239 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1071D4DFC884733BD604BEB /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = src/SPTSpec.m; sourceTree = "<group>"; };
+		C25EBD1886B341AE9BCBFDA4 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "src/matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
+		C6B57CE4431A4340B2587405 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "src/matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
+		C83720AFD76247309C02DFCF /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = src/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
+		CB50B4A61EEB4AFC9D236607 /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "src/matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
+		CBEBE51B95934C1CABCA228D /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8AB9DBC8784B01B67943DE /* libPods-Tests-Specta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-Specta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB83F29BB6845B6ABC1E0D5 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		D15DD5812F534E6F82BE9A9A /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		D1C6A7B37D934EDFAFEAB6AD /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "src/matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
+		D2CB3D7963A949358040FAAC /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "src/matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
+		D52B9A686DD745F0B168CEF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D7E6D4DBADCB4BC49160B389 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = src/SPTExample.m; sourceTree = "<group>"; };
+		DE17D12D7BF147DDB63E9AA5 /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.xcconfig"; sourceTree = "<group>"; };
+		DE95A6AA0E1F40D9A6F575DD /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "src/matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
+		DF7686A3568F476C9E9A2D8E /* Pods-Tests-Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-Expecta-prefix.pch"; sourceTree = "<group>"; };
+		E2DE58F20A8A4EC28F2493D0 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E48476C9311B49AC9DE84314 /* EXPBackwardCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBackwardCompatibility.h; path = src/EXPBackwardCompatibility.h; sourceTree = "<group>"; };
+		E946F1F269994CA193B853E5 /* SPTXCTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTXCTestCase.m; path = src/SPTXCTestCase.m; sourceTree = "<group>"; };
+		EA5705D472244E9EBF13A489 /* NSManagedObject+GDIClone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+GDIClone.h"; path = "Pod/Classes/NSManagedObject+GDIClone.h"; sourceTree = "<group>"; };
+		EC0B709961774957B98FC124 /* SPTXCTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTXCTestCase.h; path = src/SPTXCTestCase.h; sourceTree = "<group>"; };
+		ED2484E7992344A58C3D24D8 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "src/matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
+		ED375D04DD8F4CE5BCB37BAB /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = src/SPTSpec.h; sourceTree = "<group>"; };
+		EF513F9E50FB4FAA82692A71 /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "src/matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
+		EFC164E60FCE4E59816C9D20 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "src/XCTestCase+Specta.h"; sourceTree = "<group>"; };
+		F0BD50D437D642DF81834834 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "src/matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
+		F2AAFA2AC1E84EF0BD6F0B09 /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "src/matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
+		F5F145409E9E45858EA7C6D6 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = src/SPTExampleGroup.m; sourceTree = "<group>"; };
+		F67B91E99D1447EF9A1CD4A1 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "src/matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
+		F69296902A9D466CA2FEBC8B /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "src/matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
+		F9AFC0B4DB504669ACEAA8E7 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "src/matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
+		FB7083D2A4684337AFE077D9 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = src/SPTExampleGroup.h; sourceTree = "<group>"; };
+		FCA8885210DC4267B101FA28 /* GDICoreDataStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDICoreDataStack.m; path = Pod/Classes/GDICoreDataStack.m; sourceTree = "<group>"; };
+		FCDCEDCA051E4C718D6DBE01 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "src/matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
+		FD61AA91679148C29C5A0902 /* Pods-GDICoreDataKit-GDICoreDataKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDICoreDataKit-GDICoreDataKit-Private.xcconfig"; sourceTree = "<group>"; };
+		FD850B0C8EEC482B9410D664 /* Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Specta.m; path = src/Specta.m; sourceTree = "<group>"; };
+		FE2F420D210B478DB3029C0E /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = src/Specta.h; sourceTree = "<group>"; };
+		FE53639182284E0482B53404 /* Pods-Tests-GDICoreDataKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-GDICoreDataKit-prefix.pch"; sourceTree = "<group>"; };
+		FF97A7C275C24A8BA119900F /* SPTXCTestReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTXCTestReporter.m; path = src/SPTXCTestReporter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2858D4C26F224F4E9097E2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0F69AAD4754E31A7463369 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29433176DAE543EAB2BCC26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9A1BDBD2F46C98E621FCE /* Foundation.framework in Frameworks */,
+				D8BAC899609C44629EF6DF2A /* libPods-Tests-Expecta.a in Frameworks */,
+				98965D54CCDD495D909D6ACA /* libPods-Tests-GDICoreDataKit.a in Frameworks */,
+				1EAE935B173740B3AC9F1B8D /* libPods-Tests-Specta.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C81B591F1746D39C132F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B869D539053473E90B58306 /* Foundation.framework in Frameworks */,
+				9F8273D4D3104E8AA1159DB3 /* libPods-GDICoreDataKit-GDICoreDataKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98C359483CB4F559CF56B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975E1DB1D5B844F5AD6D7867 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E207C66F14B119D6DC803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7102CC84C69439FBA58BBAA /* Foundation.framework in Frameworks */,
+				F39BE1EB5D9949F491A7F1E2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA3309F22664C9A9E229121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C66373949F473C90444959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255DCCDD69844F05993EE9E2 = {
+			isa = PBXGroup;
+			children = (
+				BFDFD95658B749E4B360E239 /* Podfile */,
+				EAB125C8F71646D288D56BBD /* Development Pods */,
+				EC1E01BF1EF049A8A2D0E6ED /* Frameworks */,
+				3B7A49B9CF9B41F7A598835D /* Pods */,
+				630F3BF1EE1F42EC85E5AC1D /* Products */,
+				F14E0939201F48D2B7A81B90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2E530A47D7504B0DBDD13192 /* GDICoreDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				7782790719B420F600C014D1 /* GDICoreDataKit.h */,
+				A709BC43FAFD46F3A440935A /* GDICoreDataStack.h */,
+				FCA8885210DC4267B101FA28 /* GDICoreDataStack.m */,
+				EA5705D472244E9EBF13A489 /* NSManagedObject+GDIClone.h */,
+				8324B98A4836421DA5DB8525 /* NSManagedObject+GDIClone.m */,
+				18B1FB6007294807A5E0A597 /* NSManagedObject+GDIHelpers.h */,
+				BBE2E40FF3F14F889E24F66C /* NSManagedObject+GDIHelpers.m */,
+				7904B7E9DC014618BC3B3C89 /* NSManagedObject+GDIOrderedSetAccessors.h */,
+				939F3FC54C2A463D84D30941 /* NSManagedObject+GDIOrderedSetAccessors.m */,
+				8A4482120F9F497886148E1E /* Support Files */,
+			);
+			name = GDICoreDataKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		32D4B2418D2F4711AA827FE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9854F9DA60BD46C18453AB44 /* Pods-Tests-Specta.xcconfig */,
+				7925CBA81EFC4415AC0F080B /* Pods-Tests-Specta-Private.xcconfig */,
+				87272039091840109AFCE76F /* Pods-Tests-Specta-dummy.m */,
+				BA69F5864F5848BFB9CD8158 /* Pods-Tests-Specta-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		3B7A49B9CF9B41F7A598835D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B65C59C200A847B38B27627F /* Expecta */,
+				59D27319984F4D01B49F880B /* Specta */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59D27319984F4D01B49F880B /* Specta */ = {
+			isa = PBXGroup;
+			children = (
+				8F0319DE051A4E8B9BF9DFC5 /* SPTExample.h */,
+				D7E6D4DBADCB4BC49160B389 /* SPTExample.m */,
+				FB7083D2A4684337AFE077D9 /* SPTExampleGroup.h */,
+				F5F145409E9E45858EA7C6D6 /* SPTExampleGroup.m */,
+				2787A3C677A44EED80BDC3E2 /* SPTNestedReporter.h */,
+				9D734A7B79294C34B16FF94A /* SPTNestedReporter.m */,
+				7F5BE937A22740FF96407EE9 /* SPTReporter.h */,
+				7E67259E8E8344B589E3CB12 /* SPTReporter.m */,
+				115272C3773E467DA4F4A546 /* SPTSharedExampleGroups.h */,
+				C83720AFD76247309C02DFCF /* SPTSharedExampleGroups.m */,
+				ED375D04DD8F4CE5BCB37BAB /* SPTSpec.h */,
+				C1071D4DFC884733BD604BEB /* SPTSpec.m */,
+				EC0B709961774957B98FC124 /* SPTXCTestCase.h */,
+				E946F1F269994CA193B853E5 /* SPTXCTestCase.m */,
+				71149B94856C4F5EA846570E /* SPTXCTestReporter.h */,
+				FF97A7C275C24A8BA119900F /* SPTXCTestReporter.m */,
+				FE2F420D210B478DB3029C0E /* Specta.h */,
+				FD850B0C8EEC482B9410D664 /* Specta.m */,
+				10D410EAFC624478B6D7BE45 /* SpectaSupport.h */,
+				29B5A6856C9E4ED198B7D515 /* SpectaTypes.h */,
+				2D0A2F95FFEE418093F20819 /* SpectaUtility.h */,
+				4A9191A5B8EC40188F5CCB6B /* SpectaUtility.m */,
+				EFC164E60FCE4E59816C9D20 /* XCTestCase+Specta.h */,
+				200402FC883B4052B7587642 /* XCTestCase+Specta.m */,
+				915CB80C52B14C2D8A9B96A5 /* XCTestLog+Specta.h */,
+				A4C0BE80D74849B48D13EB4E /* XCTestLog+Specta.m */,
+				469DA0E9033A43F2B20C9C38 /* XCTestRun+Specta.h */,
+				87B1CCE49F7C4A70BCFFFBA5 /* XCTestRun+Specta.m */,
+				32D4B2418D2F4711AA827FE7 /* Support Files */,
+			);
+			path = Specta;
+			sourceTree = "<group>";
+		};
+		630F3BF1EE1F42EC85E5AC1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8782235933244465A6D6F6E6 /* libPods-GDICoreDataKit.a */,
+				A6E03A348BD54EC7A44C55F1 /* libPods-GDICoreDataKit-GDICoreDataKit.a */,
+				CBEBE51B95934C1CABCA228D /* libPods-Tests.a */,
+				7DE5A61126154ABA9FA5DDBA /* libPods-Tests-Expecta.a */,
+				4EA2B183037C48E686EBD452 /* libPods-Tests-GDICoreDataKit.a */,
+				CC8AB9DBC8784B01B67943DE /* libPods-Tests-Specta.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B9B1B049CE4418E8FFEDFC2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6C9FC9FF26A4B15BDE443EA /* Foundation.framework */,
+				D52B9A686DD745F0B168CEF6 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8A4482120F9F497886148E1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C30C17FE0FC42B894F04BF0 /* Pods-GDICoreDataKit-GDICoreDataKit.xcconfig */,
+				FD61AA91679148C29C5A0902 /* Pods-GDICoreDataKit-GDICoreDataKit-Private.xcconfig */,
+				B198E50276024F08AF5B8A49 /* Pods-GDICoreDataKit-GDICoreDataKit-dummy.m */,
+				2D3AD69554EA487A8FECB5BE /* Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch */,
+				8E8493F003244FF6878E5FCA /* Pods-Tests-GDICoreDataKit.xcconfig */,
+				1BB74BE6E4594EF8B5F55A8E /* Pods-Tests-GDICoreDataKit-Private.xcconfig */,
+				39DA676BD3AA4CCAAE68A259 /* Pods-Tests-GDICoreDataKit-dummy.m */,
+				FE53639182284E0482B53404 /* Pods-Tests-GDICoreDataKit-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		9666E43C52AD4F8EA6A1B2F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F264FE1384B4BABB770B083 /* Pods-Tests-Expecta.xcconfig */,
+				A7A21384850D448AAF89C9BF /* Pods-Tests-Expecta-Private.xcconfig */,
+				152B042C3AE24C37A473FEED /* Pods-Tests-Expecta-dummy.m */,
+				DF7686A3568F476C9E9A2D8E /* Pods-Tests-Expecta-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		B65C59C200A847B38B27627F /* Expecta */ = {
+			isa = PBXGroup;
+			children = (
+				E48476C9311B49AC9DE84314 /* EXPBackwardCompatibility.h */,
+				74ACCBD9215E47889A3BAC41 /* EXPBackwardCompatibility.m */,
+				11903591A5574431BD0D8B3F /* EXPBlockDefinedMatcher.h */,
+				0D029DAD600145F6A0FC5C3F /* EXPBlockDefinedMatcher.m */,
+				3A304CBA158A480A8C58A157 /* EXPDefines.h */,
+				5B50FC57F38A41CBA68A6F86 /* EXPDoubleTuple.h */,
+				7C66CAE49E2F401C9A5489BA /* EXPDoubleTuple.m */,
+				9D1CAD2BD432488D9C4759C8 /* EXPExpect.h */,
+				AC98488AE72C4A33BE2559F5 /* EXPExpect.m */,
+				8960D8D77BE6478B9C4E2B2C /* EXPFloatTuple.h */,
+				68A70C0A27C44CF887F08F1F /* EXPFloatTuple.m */,
+				6007ADFB029B4D0C9B281C27 /* EXPMatcher.h */,
+				7CD17BECF64D40D0A23F3DB6 /* EXPMatcherHelpers.h */,
+				07847C2CEFA54A89958954AF /* EXPMatcherHelpers.m */,
+				8DE40244E0BD4BBBB89765FB /* EXPMatchers.h */,
+				1F48A064DD944FDF898DB171 /* EXPMatchers+beCloseTo.h */,
+				B7521269BE3F4AABA6ACFD67 /* EXPMatchers+beCloseTo.m */,
+				AB7348AD246144E3B121E5EB /* EXPMatchers+beFalsy.h */,
+				F9AFC0B4DB504669ACEAA8E7 /* EXPMatchers+beFalsy.m */,
+				77BF0B0E2A714683A4179487 /* EXPMatchers+beGreaterThan.h */,
+				B28F143C003B4F15B94C0C53 /* EXPMatchers+beGreaterThan.m */,
+				7387B3C9B12C4D34B13D399A /* EXPMatchers+beGreaterThanOrEqualTo.h */,
+				090342D4ECE74ACBA44283C8 /* EXPMatchers+beGreaterThanOrEqualTo.m */,
+				CB50B4A61EEB4AFC9D236607 /* EXPMatchers+beIdenticalTo.h */,
+				44E02BC58D994846B01BD746 /* EXPMatchers+beIdenticalTo.m */,
+				F67B91E99D1447EF9A1CD4A1 /* EXPMatchers+beInTheRangeOf.h */,
+				4F79E65D479544CF88E236C5 /* EXPMatchers+beInTheRangeOf.m */,
+				3745A37EB2CB40BCB31A23E8 /* EXPMatchers+beInstanceOf.h */,
+				3184C53077C2416ABB348133 /* EXPMatchers+beInstanceOf.m */,
+				FCDCEDCA051E4C718D6DBE01 /* EXPMatchers+beKindOf.h */,
+				F69296902A9D466CA2FEBC8B /* EXPMatchers+beKindOf.m */,
+				6ABD0961E6454C5FB311F7EB /* EXPMatchers+beLessThan.h */,
+				21D19C88BC284492ABE130C7 /* EXPMatchers+beLessThan.m */,
+				ED2484E7992344A58C3D24D8 /* EXPMatchers+beLessThanOrEqualTo.h */,
+				4BDE16A822C342A4BA47D599 /* EXPMatchers+beLessThanOrEqualTo.m */,
+				DE95A6AA0E1F40D9A6F575DD /* EXPMatchers+beNil.h */,
+				513A8D2D7806423AB06E85E2 /* EXPMatchers+beNil.m */,
+				EF513F9E50FB4FAA82692A71 /* EXPMatchers+beSubclassOf.h */,
+				9EBF1470E07B4154BA29A99F /* EXPMatchers+beSubclassOf.m */,
+				D1C6A7B37D934EDFAFEAB6AD /* EXPMatchers+beSupersetOf.h */,
+				9A1DCE22B7E1427C88D7C8A3 /* EXPMatchers+beSupersetOf.m */,
+				C6B57CE4431A4340B2587405 /* EXPMatchers+beTruthy.h */,
+				F0BD50D437D642DF81834834 /* EXPMatchers+beTruthy.m */,
+				D2CB3D7963A949358040FAAC /* EXPMatchers+beginWith.h */,
+				43B05E568E69431899ED3B5A /* EXPMatchers+beginWith.m */,
+				672967AB12394BDABC70EE1F /* EXPMatchers+conformTo.h */,
+				C25EBD1886B341AE9BCBFDA4 /* EXPMatchers+conformTo.m */,
+				F2AAFA2AC1E84EF0BD6F0B09 /* EXPMatchers+contain.h */,
+				25D2B5DDFBF94F2180026ABA /* EXPMatchers+contain.m */,
+				51D3E972450C487082215F73 /* EXPMatchers+endWith.h */,
+				3C22C3ED34E248AF987A3C03 /* EXPMatchers+endWith.m */,
+				14C070302D2B493F96970043 /* EXPMatchers+equal.h */,
+				25838B5541DE49C599CD941E /* EXPMatchers+equal.m */,
+				547FBB334010483E9E682972 /* EXPMatchers+haveCountOf.h */,
+				B2D1644307044490BC7907D6 /* EXPMatchers+haveCountOf.m */,
+				874D2335108C4E1FB9EA88BC /* EXPMatchers+notify.h */,
+				2682F64EF764434E87C5C260 /* EXPMatchers+notify.m */,
+				3AA24DDE89124EC4AD39AE0A /* EXPMatchers+raise.h */,
+				85A95988B5CA4DE690141660 /* EXPMatchers+raise.m */,
+				7610DDC2A6984C60825633CB /* EXPMatchers+raiseWithReason.h */,
+				62AE87A42AE64E969C3EF3D6 /* EXPMatchers+raiseWithReason.m */,
+				8744AC8E2DE548B2960031F1 /* EXPMatchers+respondTo.h */,
+				29DAE60AF21E498986ECF7E3 /* EXPMatchers+respondTo.m */,
+				583F3A397A8341D5B3DE6FBF /* EXPUnsupportedObject.h */,
+				BBB29AB23D59488AAD6DA425 /* EXPUnsupportedObject.m */,
+				591573BE2D73412DBC543BED /* Expecta.h */,
+				07E454CCA03D4F01891572C2 /* Expecta.m */,
+				BC0A6022E81E4307A1EBA174 /* ExpectaSupport.h */,
+				0725DC62223A480CB8F60235 /* ExpectaSupport.m */,
+				674AEB0E0FB24880A7916CB7 /* NSObject+Expecta.h */,
+				94162BF1B80645398281CE3D /* NSValue+Expecta.h */,
+				BADD748CD333440FB4800FDE /* NSValue+Expecta.m */,
+				9666E43C52AD4F8EA6A1B2F4 /* Support Files */,
+			);
+			path = Expecta;
+			sourceTree = "<group>";
+		};
+		BD0299B8B1344999920DF785 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE17D12D7BF147DDB63E9AA5 /* Pods-Tests.xcconfig */,
+				91F986E8CF08429DAEAA8910 /* Pods-Tests-acknowledgements.markdown */,
+				E2DE58F20A8A4EC28F2493D0 /* Pods-Tests-acknowledgements.plist */,
+				1E86395C49C94E11B2F49160 /* Pods-Tests-dummy.m */,
+				CEB83F29BB6845B6ABC1E0D5 /* Pods-Tests-environment.h */,
+				D15DD5812F534E6F82BE9A9A /* Pods-Tests-resources.sh */,
+			);
+			name = "Pods-Tests";
+			sourceTree = "<group>";
+		};
+		DFFEF1F965B346698CE068BF /* Pods-GDICoreDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				86B9BF633E2A4C119BA73F6C /* Pods-GDICoreDataKit.xcconfig */,
+				405CE3E01C3A49E480FCAAAC /* Pods-GDICoreDataKit-acknowledgements.markdown */,
+				7B175D48CA8B4169BE8AA8FD /* Pods-GDICoreDataKit-acknowledgements.plist */,
+				A71F83221D4142D9B632894C /* Pods-GDICoreDataKit-dummy.m */,
+				56782E83BF854C2B80A500D1 /* Pods-GDICoreDataKit-environment.h */,
+				968D769039164DB6A17D5E87 /* Pods-GDICoreDataKit-resources.sh */,
+			);
+			name = "Pods-GDICoreDataKit";
+			sourceTree = "<group>";
+		};
+		EAB125C8F71646D288D56BBD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E530A47D7504B0DBDD13192 /* GDICoreDataKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EC1E01BF1EF049A8A2D0E6ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B9B1B049CE4418E8FFEDFC2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F14E0939201F48D2B7A81B90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFFEF1F965B346698CE068BF /* Pods-GDICoreDataKit */,
+				BD0299B8B1344999920DF785 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		093CAD2BBFC64032BC489C11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A826853A168243898845CBE7 /* GDICoreDataStack.h in Headers */,
+				2239C077424B4037923FCC4D /* NSManagedObject+GDIClone.h in Headers */,
+				E9E1EAAB456A46EF99E85ED9 /* NSManagedObject+GDIHelpers.h in Headers */,
+				DC0364BDEE654F0DAB0617FE /* NSManagedObject+GDIOrderedSetAccessors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4A549E5A6C47B2A34007A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B154620514449D2BAF29D7B /* EXPBackwardCompatibility.h in Headers */,
+				00E990B5016F40CDA0BAC02E /* EXPBlockDefinedMatcher.h in Headers */,
+				EAF088F09BFC40A2B488A9C6 /* EXPDefines.h in Headers */,
+				592341C68C5842368C57097D /* EXPDoubleTuple.h in Headers */,
+				402700C75E224E26AE6D2A3D /* EXPExpect.h in Headers */,
+				C115F20800B848529EF681CD /* EXPFloatTuple.h in Headers */,
+				47F64EE9F43445AF93277691 /* EXPMatcher.h in Headers */,
+				BD184F81F03843799E250208 /* EXPMatcherHelpers.h in Headers */,
+				EF5311ED75664A639D9E5303 /* EXPMatchers+beCloseTo.h in Headers */,
+				289716DB90AE41CC97ABC968 /* EXPMatchers+beFalsy.h in Headers */,
+				97D218D42DA048149A82D541 /* EXPMatchers+beGreaterThan.h in Headers */,
+				9E79CAA5CF3E43A5A4A10527 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
+				F4DDF88804EC489DB1752E36 /* EXPMatchers+beIdenticalTo.h in Headers */,
+				31F48FD0D0E94450A2D85211 /* EXPMatchers+beInTheRangeOf.h in Headers */,
+				63085FF56ED74860ACFB0E4F /* EXPMatchers+beInstanceOf.h in Headers */,
+				106F8D8711C24AC0ADA7CDD9 /* EXPMatchers+beKindOf.h in Headers */,
+				CCBDC0E6D1014E6A963515C2 /* EXPMatchers+beLessThan.h in Headers */,
+				45A039B009FC4E29B0855E75 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
+				18E5B36716324F54857D79F5 /* EXPMatchers+beNil.h in Headers */,
+				BAF73C21D1A0462B986A49FA /* EXPMatchers+beSubclassOf.h in Headers */,
+				4967ACB2B0C74AA5B5D9F5B6 /* EXPMatchers+beSupersetOf.h in Headers */,
+				EB96B0E8E3F54BA0A62BDCF0 /* EXPMatchers+beTruthy.h in Headers */,
+				B44CED3437874456BD50B3C2 /* EXPMatchers+beginWith.h in Headers */,
+				49FB945C93964AD098FF7F42 /* EXPMatchers+conformTo.h in Headers */,
+				5587A02561FF4DB6A9231EB8 /* EXPMatchers+contain.h in Headers */,
+				B93F203BF0C84354A5B56136 /* EXPMatchers+endWith.h in Headers */,
+				67C70290C8AE41DEA781F114 /* EXPMatchers+equal.h in Headers */,
+				AE35AEB8464A4CA59B6E4A02 /* EXPMatchers+haveCountOf.h in Headers */,
+				DCF58B4BBD39486A837A175F /* EXPMatchers+notify.h in Headers */,
+				60257ABE8EC3490B867F3C86 /* EXPMatchers+raise.h in Headers */,
+				EB97B04F958F4913BC4FE4A8 /* EXPMatchers+raiseWithReason.h in Headers */,
+				8928A6451F2A43E8AD63FC71 /* EXPMatchers+respondTo.h in Headers */,
+				59BB5E350357439FA40133AC /* EXPMatchers.h in Headers */,
+				FCF2E12FA08F49FF90A40E6C /* EXPUnsupportedObject.h in Headers */,
+				2E10ABB6CF924A799B708D04 /* Expecta.h in Headers */,
+				2F132B3D3AA443049CD2CCBB /* ExpectaSupport.h in Headers */,
+				7665A4DEE3E34AB2AA00CD45 /* NSObject+Expecta.h in Headers */,
+				C3B1777A1E5848DA94DBB48C /* NSValue+Expecta.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F86E07B18C4F298C9F4932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D5541A1BBE49AE8A379E6A /* GDICoreDataStack.h in Headers */,
+				ABCB0251B0F7408DB26023F4 /* NSManagedObject+GDIClone.h in Headers */,
+				C3363788A6CF49BA9A6EA605 /* NSManagedObject+GDIHelpers.h in Headers */,
+				73A78C3E3426418E89C679C4 /* NSManagedObject+GDIOrderedSetAccessors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCDC91FB6444A448D34002D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30EC5559A1B545CDA57091A9 /* SPTExample.h in Headers */,
+				456570E3187A4DB78539B2D4 /* SPTExampleGroup.h in Headers */,
+				5D716B65FD4B4D5BAAEFABBC /* SPTNestedReporter.h in Headers */,
+				DA6B4414210E423A9B6C4988 /* SPTReporter.h in Headers */,
+				E9162E7C73F64C68B4A84091 /* SPTSharedExampleGroups.h in Headers */,
+				CAD6FDD2A52C4475AE23CDBC /* SPTSpec.h in Headers */,
+				25139F47E2774AEABEA2C7AB /* SPTXCTestCase.h in Headers */,
+				4B78F3270A0A473FBF13FC16 /* SPTXCTestReporter.h in Headers */,
+				78F325A69B1D4FC0844C40F7 /* Specta.h in Headers */,
+				68395484A22847C9AE040430 /* SpectaSupport.h in Headers */,
+				D2B2A23490AE40D1B06D290F /* SpectaTypes.h in Headers */,
+				7109178ED1B4401AA829BEE4 /* SpectaUtility.h in Headers */,
+				D43DB5F951254203BB80C9B6 /* XCTestCase+Specta.h in Headers */,
+				DE9C5D8EFEB24FB78B9332AA /* XCTestLog+Specta.h in Headers */,
+				85F092F49BE1427188D51ADD /* XCTestRun+Specta.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		267C6A40C0BB4B938A10E6F5 /* Pods-Tests-GDICoreDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230BC85D94244A63B96299DC /* Build configuration list for PBXNativeTarget "Pods-Tests-GDICoreDataKit" */;
+			buildPhases = (
+				9B75ADCCE5D548E4BB183D3E /* Sources */,
+				BFA3309F22664C9A9E229121 /* Frameworks */,
+				79F86E07B18C4F298C9F4932 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-GDICoreDataKit";
+			productName = "Pods-Tests-GDICoreDataKit";
+			productReference = 4EA2B183037C48E686EBD452 /* libPods-Tests-GDICoreDataKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3885E708F10D4792AD12385F /* Pods-GDICoreDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489CBDE596534A948D70F6D7 /* Build configuration list for PBXNativeTarget "Pods-GDICoreDataKit" */;
+			buildPhases = (
+				B1EE1E59AF2946F5A4E44418 /* Sources */,
+				36C81B591F1746D39C132F6D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82301CAF85048F28E96B74B /* PBXTargetDependency */,
+			);
+			name = "Pods-GDICoreDataKit";
+			productName = "Pods-GDICoreDataKit";
+			productReference = 8782235933244465A6D6F6E6 /* libPods-GDICoreDataKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		61233D00DA0344F08178079D /* Pods-Tests-Specta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3CD21A81644B329BCFF88B /* Build configuration list for PBXNativeTarget "Pods-Tests-Specta" */;
+			buildPhases = (
+				F2EDF0EB76F44EE099E553F3 /* Sources */,
+				BC0E207C66F14B119D6DC803 /* Frameworks */,
+				FCCDC91FB6444A448D34002D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-Specta";
+			productName = "Pods-Tests-Specta";
+			productReference = CC8AB9DBC8784B01B67943DE /* libPods-Tests-Specta.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8ECA1D375F4F459A8A73A201 /* Pods-GDICoreDataKit-GDICoreDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6818870A8E34D07BB97A14B /* Build configuration list for PBXNativeTarget "Pods-GDICoreDataKit-GDICoreDataKit" */;
+			buildPhases = (
+				82B3F852A29C4A0B8F446F28 /* Sources */,
+				A98C359483CB4F559CF56B3D /* Frameworks */,
+				093CAD2BBFC64032BC489C11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GDICoreDataKit-GDICoreDataKit";
+			productName = "Pods-GDICoreDataKit-GDICoreDataKit";
+			productReference = A6E03A348BD54EC7A44C55F1 /* libPods-GDICoreDataKit-GDICoreDataKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E4E14B3D7DA448DE9F31F3A7 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0E655435684F08B9B88BB6 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				2CC1CFBB059940A6805DF83A /* Sources */,
+				29433176DAE543EAB2BCC26D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C3E49EFB6B476D9E874144 /* PBXTargetDependency */,
+				642E51D06DA94DE6BC886D2E /* PBXTargetDependency */,
+				DA47BFD695844663B05B9F8F /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = CBEBE51B95934C1CABCA228D /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD8A5C00671040328E0773EE /* Pods-Tests-Expecta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17CD462326C40A5BB5E8193 /* Build configuration list for PBXNativeTarget "Pods-Tests-Expecta" */;
+			buildPhases = (
+				47A46326F34D4E70B4C84FDA /* Sources */,
+				2858D4C26F224F4E9097E2C5 /* Frameworks */,
+				1A4A549E5A6C47B2A34007A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-Expecta";
+			productName = "Pods-Tests-Expecta";
+			productReference = 7DE5A61126154ABA9FA5DDBA /* libPods-Tests-Expecta.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E31BC3A24B4144BBB911A1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 6ECAA8E811394548A3FBB607 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 255DCCDD69844F05993EE9E2;
+			productRefGroup = 630F3BF1EE1F42EC85E5AC1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3885E708F10D4792AD12385F /* Pods-GDICoreDataKit */,
+				8ECA1D375F4F459A8A73A201 /* Pods-GDICoreDataKit-GDICoreDataKit */,
+				E4E14B3D7DA448DE9F31F3A7 /* Pods-Tests */,
+				FD8A5C00671040328E0773EE /* Pods-Tests-Expecta */,
+				267C6A40C0BB4B938A10E6F5 /* Pods-Tests-GDICoreDataKit */,
+				61233D00DA0344F08178079D /* Pods-Tests-Specta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC1CFBB059940A6805DF83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1273CEB3C4DB59D6D0369 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A46326F34D4E70B4C84FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC956CAA4354F31815C57B1 /* EXPBackwardCompatibility.m in Sources */,
+				60130FF8407F4B18B04134EF /* EXPBlockDefinedMatcher.m in Sources */,
+				0717AF2DF312462388871190 /* EXPDoubleTuple.m in Sources */,
+				6853FA92DEF446B6A2FDFF14 /* EXPExpect.m in Sources */,
+				502D00D575D941849DE3F4FF /* EXPFloatTuple.m in Sources */,
+				13EE0904DD1643C0B7EF2975 /* EXPMatcherHelpers.m in Sources */,
+				3749CD05A32D4E03959D0054 /* EXPMatchers+beCloseTo.m in Sources */,
+				D5F33569A573406C85B200E6 /* EXPMatchers+beFalsy.m in Sources */,
+				23D043DCEEC5484682BD617C /* EXPMatchers+beGreaterThan.m in Sources */,
+				C05647373DF14B4F98863EC0 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
+				FD3E93C280FE448EBF47C0B8 /* EXPMatchers+beIdenticalTo.m in Sources */,
+				CD5E5AA838444D119D74C955 /* EXPMatchers+beInTheRangeOf.m in Sources */,
+				53A023950C2D49E7A18223F8 /* EXPMatchers+beInstanceOf.m in Sources */,
+				B691F1D080AC4795B4792A9E /* EXPMatchers+beKindOf.m in Sources */,
+				11D2E9A606944CA7BE1D882C /* EXPMatchers+beLessThan.m in Sources */,
+				D8E17CF2B324433E850985F0 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
+				E97AD13516024FE1813086BF /* EXPMatchers+beNil.m in Sources */,
+				1EA05DBA8E2D48DDB2DF8706 /* EXPMatchers+beSubclassOf.m in Sources */,
+				20CD4CD3DE7A4B9794EEB375 /* EXPMatchers+beSupersetOf.m in Sources */,
+				223DCC6955B640988E6D23C7 /* EXPMatchers+beTruthy.m in Sources */,
+				DFAA803775084DA68ACEE096 /* EXPMatchers+beginWith.m in Sources */,
+				A0649548E36542809E65CA33 /* EXPMatchers+conformTo.m in Sources */,
+				199683D27C704D3C9C4F27EB /* EXPMatchers+contain.m in Sources */,
+				FCCF4D3B185E4EBFB7A66703 /* EXPMatchers+endWith.m in Sources */,
+				48AB719711E34325B2E4F07E /* EXPMatchers+equal.m in Sources */,
+				5D5F8AD9293C40B7B515B26E /* EXPMatchers+haveCountOf.m in Sources */,
+				A6EDE313A12341EDA2C631B7 /* EXPMatchers+notify.m in Sources */,
+				14900BCADE0C485AA29162BE /* EXPMatchers+raise.m in Sources */,
+				1F79C38A6C804308842A6B2C /* EXPMatchers+raiseWithReason.m in Sources */,
+				6C6DCC1892E441AFA5F122C9 /* EXPMatchers+respondTo.m in Sources */,
+				D54314BF5E78411FB076BBE6 /* EXPUnsupportedObject.m in Sources */,
+				32697A00A3C843DB8A9DE00D /* Expecta.m in Sources */,
+				95A39508486540F290CA5C2A /* ExpectaSupport.m in Sources */,
+				B9ECA3C588B54131A96EB4A5 /* NSValue+Expecta.m in Sources */,
+				90F6CC3D9A1141559D8BF6F8 /* Pods-Tests-Expecta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B3F852A29C4A0B8F446F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B824945E5D3490093796F44 /* GDICoreDataStack.m in Sources */,
+				6CBFF8ACA911422E993DD60C /* NSManagedObject+GDIClone.m in Sources */,
+				888B21E3B13B48D5B7708026 /* NSManagedObject+GDIHelpers.m in Sources */,
+				B5A9F9B87DAE481097A6B21E /* NSManagedObject+GDIOrderedSetAccessors.m in Sources */,
+				AF3052F4CF0449A9A3D797DF /* Pods-GDICoreDataKit-GDICoreDataKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B75ADCCE5D548E4BB183D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4B182F6B3E47239B67D256 /* GDICoreDataStack.m in Sources */,
+				4310C4BF6FAD465BAA8E715D /* NSManagedObject+GDIClone.m in Sources */,
+				E8F8E7FEE2214BD1861D99E8 /* NSManagedObject+GDIHelpers.m in Sources */,
+				40067CBD69154DFDA0064C2E /* NSManagedObject+GDIOrderedSetAccessors.m in Sources */,
+				89CE48AA9A094E17AA98BA37 /* Pods-Tests-GDICoreDataKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EE1E59AF2946F5A4E44418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3DC39FFD3E44F995140E6B /* Pods-GDICoreDataKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EDF0EB76F44EE099E553F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA0CE2A3B7146C1831C10BB /* Pods-Tests-Specta-dummy.m in Sources */,
+				CB02D25F5D654B2E9A118916 /* SPTExample.m in Sources */,
+				E018CBD3E790471D8F39F1D2 /* SPTExampleGroup.m in Sources */,
+				745F34E0BCA249119DB8CB6E /* SPTNestedReporter.m in Sources */,
+				01778473EC0E424C8EC4C19D /* SPTReporter.m in Sources */,
+				312FF036727B4555A1F97942 /* SPTSharedExampleGroups.m in Sources */,
+				CEB96211FE0647E1914E636C /* SPTSpec.m in Sources */,
+				C5A6585229934CFCBB56BC44 /* SPTXCTestCase.m in Sources */,
+				70FC42EB00684588A1563346 /* SPTXCTestReporter.m in Sources */,
+				A21DD007E05846D784B0948B /* Specta.m in Sources */,
+				FB2DA2EFB7714A82A76C85E0 /* SpectaUtility.m in Sources */,
+				5D7E0B44F74A480C80123A2F /* XCTestCase+Specta.m in Sources */,
+				F74D542FDD8D4D1A8E5DE228 /* XCTestLog+Specta.m in Sources */,
+				564A93C097104C66B75768B2 /* XCTestRun+Specta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		642E51D06DA94DE6BC886D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 267C6A40C0BB4B938A10E6F5 /* Pods-Tests-GDICoreDataKit */;
+			targetProxy = 2540265214B2466AAAEF7978 /* PBXContainerItemProxy */;
+		};
+		B82301CAF85048F28E96B74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECA1D375F4F459A8A73A201 /* Pods-GDICoreDataKit-GDICoreDataKit */;
+			targetProxy = B37FE754E511463292B37DA6 /* PBXContainerItemProxy */;
+		};
+		DA47BFD695844663B05B9F8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61233D00DA0344F08178079D /* Pods-Tests-Specta */;
+			targetProxy = 2F419C19EE0348AE957C0DDC /* PBXContainerItemProxy */;
+		};
+		F0C3E49EFB6B476D9E874144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD8A5C00671040328E0773EE /* Pods-Tests-Expecta */;
+			targetProxy = 66F76BBA4AC04BD0A9A7C2B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CBA8D17A48E42F781D01443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBF3DD7EFCC41B5AE0527D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A21384850D448AAF89C9BF /* Pods-Tests-Expecta-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Tests-Expecta-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B29CD8A3E3042B3BD3B36ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB74BE6E4594EF8B5F55A8E /* Pods-Tests-GDICoreDataKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Tests-GDICoreDataKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34471FDC70314E5CA402A825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7925CBA81EFC4415AC0F080B /* Pods-Tests-Specta-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Tests-Specta-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		438108C2D0D241CEA76E91E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B9BF633E2A4C119BA73F6C /* Pods-GDICoreDataKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4EBBA2F7DBB94F54B85D49A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB74BE6E4594EF8B5F55A8E /* Pods-Tests-GDICoreDataKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Tests-GDICoreDataKit-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542F62CC209341949F9B0C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE17D12D7BF147DDB63E9AA5 /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6A49960B6C334E3288538B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD61AA91679148C29C5A0902 /* Pods-GDICoreDataKit-GDICoreDataKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7F41FBD682D743FBAF2DAD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7925CBA81EFC4415AC0F080B /* Pods-Tests-Specta-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Tests-Specta-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839D403132AD46DFB46BBDF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A21384850D448AAF89C9BF /* Pods-Tests-Expecta-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-Tests-Expecta-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93367BFF54B647FD995A63E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A16E6E1279964F168B434963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B9BF633E2A4C119BA73F6C /* Pods-GDICoreDataKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6848641B5344438990582B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE17D12D7BF147DDB63E9AA5 /* Pods-Tests.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15FE95EC7DA46DE8DAB04A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD61AA91679148C29C5A0902 /* Pods-GDICoreDataKit-GDICoreDataKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-GDICoreDataKit-GDICoreDataKit-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0E655435684F08B9B88BB6 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542F62CC209341949F9B0C69 /* Debug */,
+				D6848641B5344438990582B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230BC85D94244A63B96299DC /* Build configuration list for PBXNativeTarget "Pods-Tests-GDICoreDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B29CD8A3E3042B3BD3B36ED /* Debug */,
+				4EBBA2F7DBB94F54B85D49A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3CD21A81644B329BCFF88B /* Build configuration list for PBXNativeTarget "Pods-Tests-Specta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34471FDC70314E5CA402A825 /* Debug */,
+				7F41FBD682D743FBAF2DAD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489CBDE596534A948D70F6D7 /* Build configuration list for PBXNativeTarget "Pods-GDICoreDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438108C2D0D241CEA76E91E1 /* Debug */,
+				A16E6E1279964F168B434963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECAA8E811394548A3FBB607 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93367BFF54B647FD995A63E4 /* Debug */,
+				0CBA8D17A48E42F781D01443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6818870A8E34D07BB97A14B /* Build configuration list for PBXNativeTarget "Pods-GDICoreDataKit-GDICoreDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A49960B6C334E3288538B1E /* Debug */,
+				E15FE95EC7DA46DE8DAB04A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17CD462326C40A5BB5E8193 /* Build configuration list for PBXNativeTarget "Pods-Tests-Expecta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBF3DD7EFCC41B5AE0527D2 /* Debug */,
+				839D403132AD46DFB46BBDF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E31BC3A24B4144BBB911A1C6 /* Project object */;
+}

@@ -10,13 +10,10 @@
 Pod::Spec.new do |s|
   s.name             = "GDICoreDataKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GDICoreDataKit."
-  s.description      = <<-DESC
-                       An optional longer description of GDICoreDataKit
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.summary          = "Tools to work with CoreData that help fix errors before they happen."
+#   s.description      = <<-DESC
+#                      Coming soon...
+#                      DESC
   s.homepage         = "https://github.com/gdavis/GDICoreDataKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
@@ -28,7 +25,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'GDICoreDataKit' => ['Pod/Assets/*.png']
-  }
+#   s.resource_bundles = {
+#       'GDICoreDataKit' => ['Pod/Assets/*.png']
+#   }
 end
