@@ -3,18 +3,22 @@
 //  GDICoreDataKit
 //
 //  Created by Grant Davis on 9/12/13.
-//  Copyright (c) 2013 Grant Davis Interactive, LLC. All rights reserved.
+//  Copyright (c) 2014 Grant Davis Interactive, LLC. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+
 extern NSString * const GDICoreDataStackDidRebuildDatabase;
+
 
 @interface GDICoreDataStack : NSObject
 
+
 /**
  *  Main CoreData stack properties
+ *  TODO: finish documentation for each
  */
 @property (readonly, strong, nonatomic) NSManagedObjectContext *mainContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
@@ -22,12 +26,14 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
 @property (readonly, strong, nonatomic) NSURL *storeURL;
 @property (nonatomic, readonly, getter=isReady) BOOL ready;
 
+
 /**
  *  If the setupCoreDataStackWithCompletion method fails during its first attempt to add the
  *  persistent store to the coordinator, the system will attempt to remove the existing database file
  *  and create a new one. Defaults to YES.
  */
 @property (nonatomic) BOOL shouldRebuildDatabaseIfPersistentStoreSetupFails;
+
 
 /**
  *  Initializes a new instance. The CoreData stack is not yet available after instantiating this object
@@ -39,6 +45,7 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  @param configuration        [Optional] Option configuration name to use when creating the persistent store coordinator.
  */
 - (id)initWithStoreName:(NSString *)storeName seedName:(NSString *)seedName configuration:(NSString *)config;
+
 
 /**
  *  Initializes a new instance. The CoreData stack is not yet available after instantiating this object
@@ -73,6 +80,7 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  */
 - (NSManagedObjectContext *)createPrivateContext;
 
+
 /**
  *  Creates a new context with the stack's persistent store coordinator.
  *
@@ -81,6 +89,7 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  @return a new context configured with private queue concurrency type.
  */
 - (NSManagedObjectContext *)createPrivateContextWithMergePolicy:(id)mergePolicy;
+
 
 /**
  *  Creates a new context with the specified options.
@@ -92,5 +101,6 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  */
 - (NSManagedObjectContext *)createContextWithMergePolicy:(id)mergePolicy
                                          concurrencyType:(NSManagedObjectContextConcurrencyType)type;
+
 
 @end

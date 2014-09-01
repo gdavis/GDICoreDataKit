@@ -3,7 +3,7 @@
 //  Gravity
 //
 //  Created by Grant Davis on 3/18/13.
-//  Copyright (c) 2013 Grant Davis Interactive, LLC. All rights reserved.
+//  Copyright (c) 2014 Grant Davis Interactive, LLC. All rights reserved.
 //
 
 #import "NSManagedObject+GDIClone.h"
