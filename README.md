@@ -1,6 +1,6 @@
 # GDICoreDataKit
 
-[![CI Status](http://img.shields.io/travis/Grant Davis/GDICoreDataKit.svg?style=flat)](https://travis-ci.org/Grant Davis/GDICoreDataKit)
+[![CI Status](http://img.shields.io/travis/gdavis/GDICoreDataKit.svg?style=flat)](https://travis-ci.org/gdavis/GDICoreDataKit)
 [![Version](https://img.shields.io/cocoapods/v/GDICoreDataKit.svg?style=flat)](http://cocoadocs.org/docsets/GDICoreDataKit)
 [![License](https://img.shields.io/cocoapods/l/GDICoreDataKit.svg?style=flat)](http://cocoadocs.org/docsets/GDICoreDataKit)
 [![Platform](https://img.shields.io/cocoapods/p/GDICoreDataKit.svg?style=flat)](http://cocoadocs.org/docsets/GDICoreDataKit)

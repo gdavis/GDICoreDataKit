@@ -1,0 +1,7 @@
+language: objective-c
+xcode_workspace: Example/GDICoreDataKit.xcworkspace
+xcode_scheme: GDICoreDataKit
+xcode_sdk: iphonesimulator
+before_script:
+    - brew update
+#    - brew upgrade xctool
