@@ -4,3 +4,4 @@ xcode_scheme: GDICoreDataKit
 xcode_sdk: iphonesimulator
 before_script:
     - brew update
+podfile: Example/Podfile
