@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052B068AAC20D571AED9202D /* libPods-GDICoreDataKit Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D797C649409F52438DF786B /* libPods-GDICoreDataKit Tests.a */; };
 		13D9CE116940413693D248C0 /* libPods-GDICoreDataKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F66A20F8780453D9E78040B /* libPods-GDICoreDataKit.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 		3F66A20F8780453D9E78040B /* libPods-GDICoreDataKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDICoreDataKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46925E941F17FB31FF6CA74E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4761137B9AB341F9B9D262AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5D797C649409F52438DF786B /* libPods-GDICoreDataKit Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDICoreDataKit Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* GDICoreDataKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDICoreDataKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,12 +55,16 @@
 		6003F5A6195388D20070C39A /* GDIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDIViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		74704F9ED95CD85A755FA64A /* Pods-GDICoreDataKit Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDICoreDataKit Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDICoreDataKit Tests/Pods-GDICoreDataKit Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		77CE04BA1AB7AB86006A6A25 /* GDICoreDataKit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GDICoreDataKit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CE04BD1AB7AB86006A6A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77CE04BE1AB7AB86006A6A25 /* GDICoreDataKit_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDICoreDataKit_Tests.m; sourceTree = "<group>"; };
+		77CE04C51AB7B319006A6A25 /* libPods-GDICoreDataKit-GDICoreDataKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GDICoreDataKit-GDICoreDataKit.a"; path = "Pods/build/Debug-iphoneos/libPods-GDICoreDataKit-GDICoreDataKit.a"; sourceTree = "<group>"; };
 		7B980432391D479CB20BC539 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2CDF9276ABF132A184D7AD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF73A58DD3D48D5AC78B468 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C263EDEA956704008FE42532 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E89107F6814F020A30EBCA51 /* Pods-GDICoreDataKit Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDICoreDataKit Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDICoreDataKit Tests/Pods-GDICoreDataKit Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF10EA3175975CCF48A77E3F /* Pods-GDICoreDataKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDICoreDataKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDICoreDataKit/Pods-GDICoreDataKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052B068AAC20D571AED9202D /* libPods-GDICoreDataKit Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +98,8 @@
 				EF10EA3175975CCF48A77E3F /* Pods-GDICoreDataKit.release.xcconfig */,
 				46925E941F17FB31FF6CA74E /* Pods-Tests.debug.xcconfig */,
 				C263EDEA956704008FE42532 /* Pods-Tests.release.xcconfig */,
+				74704F9ED95CD85A755FA64A /* Pods-GDICoreDataKit Tests.debug.xcconfig */,
+				E89107F6814F020A30EBCA51 /* Pods-GDICoreDataKit Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -119,12 +128,15 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				77CE04C51AB7B319006A6A25 /* libPods-GDICoreDataKit-GDICoreDataKit.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				3F66A20F8780453D9E78040B /* libPods-GDICoreDataKit.a */,
 				7B980432391D479CB20BC539 /* libPods-Tests.a */,
+				7E2CDF9276ABF132A184D7AD /* libPods.a */,
+				5D797C649409F52438DF786B /* libPods-GDICoreDataKit Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77CE04C21AB7AB86006A6A25 /* Build configuration list for PBXNativeTarget "GDICoreDataKit Tests" */;
 			buildPhases = (
+				E2C8CF11D3983286D54EA038 /* Check Pods Manifest.lock */,
 				77CE04B61AB7AB86006A6A25 /* Sources */,
 				77CE04B71AB7AB86006A6A25 /* Frameworks */,
 				77CE04B81AB7AB86006A6A25 /* Resources */,
+				CC1D74E43C2C42BBA4394269 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,6 +309,36 @@
 			showEnvVarsInLog = 0;
 		};
 		9363506A01234BF8B4332720 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1D74E43C2C42BBA4394269 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDICoreDataKit Tests/Pods-GDICoreDataKit Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C8CF11D3983286D54EA038 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,6 +493,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDICoreDataKit/GDICoreDataKit-Prefix.pch";
 				INFOPLIST_FILE = "GDICoreDataKit/GDICoreDataKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +511,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GDICoreDataKit/GDICoreDataKit-Prefix.pch";
 				INFOPLIST_FILE = "GDICoreDataKit/GDICoreDataKit-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +522,7 @@
 		};
 		77CE04C31AB7AB86006A6A25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74704F9ED95CD85A755FA64A /* Pods-GDICoreDataKit Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -493,6 +546,7 @@
 		};
 		77CE04C41AB7AB86006A6A25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89107F6814F020A30EBCA51 /* Pods-GDICoreDataKit Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -539,6 +593,7 @@
 				77CE04C41AB7AB86006A6A25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
