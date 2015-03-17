@@ -1,3 +1,6 @@
+platform :ios, 6.0
+xcodeproj 'GDICoreDataKit.xcodeproj'
+
 target 'GDICoreDataKit', :exclusive => true do
   pod "GDICoreDataKit", :path => "../"
 end
