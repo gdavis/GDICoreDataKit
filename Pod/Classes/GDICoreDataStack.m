@@ -31,6 +31,7 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
         _seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
         _configuration = config;
         _shouldRebuildDatabaseIfPersistentStoreSetupFails = YES;
+        _mainContextMergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;
     }
     return self;
 }
@@ -44,6 +45,7 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
         _seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
         _configuration = config;
         _shouldRebuildDatabaseIfPersistentStoreSetupFails = YES;
+        _mainContextMergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;
     }
     return self;
 }
@@ -66,27 +68,30 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
         }
     }
     
+    NSURL *storeURL = [self defaultStoreURL];
+    
     if (_persistentStoreCoordinator == nil) {
         _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-        if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
-                                                       configuration:_configuration
-                                                                 URL:self.storeURL
-                                                             options:options
-                                                               error:&error])
+        NSPersistentStore *store = [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                                             configuration:_configuration
+                                                                                       URL:storeURL
+                                                                                   options:options
+                                                                                     error:&error];
+        if (store == nil)
         {
             if (_shouldRebuildDatabaseIfPersistentStoreSetupFails) {
                 NSLog(@"error opening persistent store, removing");
                 
                 error = nil;
-                if (![[NSFileManager defaultManager] removeItemAtURL:self.storeURL error:&error]) {
-                    NSLog(@"error removing persistent store %@, giving up", self.storeURL);
+                if (![[NSFileManager defaultManager] removeItemAtURL:storeURL error:&error]) {
+                    NSLog(@"error removing persistent store %@, giving up", storeURL);
                 }
                 else {
-                    NSPersistentStore *store = [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
-                                                                                         configuration:_configuration
-                                                                                                   URL:self.storeURL
-                                                                                               options:options
-                                                                                                 error:&error];
+                    store = [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                                      configuration:_configuration
+                                                                                URL:storeURL
+                                                                            options:options
+                                                                              error:&error];
                     
                     if (store != nil) {
                         [[NSNotificationCenter defaultCenter] postNotificationName:GDICoreDataStackDidRebuildDatabase object:self];
@@ -97,9 +102,10 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
                 }
             }
         }
+        _persistentStore = store;
     }
     
-    _ready = (_persistentStoreCoordinator != nil);
+    _ready = (_persistentStore != nil);
     
     if (completion) {
         completion(_ready, error);
@@ -161,7 +167,7 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 #pragma mark - Accessors
 
 
-- (NSURL *)storeURL
+- (NSURL *)defaultStoreURL
 {
     return [[self applicationDocumentsDirectory] URLByAppendingPathComponent:_storeName];
 }
@@ -182,7 +188,7 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
     if (_mainContext == nil) {
         NSPersistentStoreCoordinator *coordinator = self.persistentStoreCoordinator;
         if (coordinator != nil) {
-            _mainContext = [self createContextWithMergePolicy:NSMergeByPropertyStoreTrumpMergePolicy
+            _mainContext = [self createContextWithMergePolicy:self.mainContextMergePolicy
                                               concurrencyType:NSMainQueueConcurrencyType];
         }
     }

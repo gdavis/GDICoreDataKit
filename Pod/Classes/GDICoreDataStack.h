@@ -22,10 +22,10 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  */
 @property (readonly, strong, nonatomic) NSManagedObjectContext *mainContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStore *persistentStore;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-@property (readonly, strong, nonatomic) NSURL *storeURL;
 @property (nonatomic, readonly, getter=isReady) BOOL ready;
-
+@property (assign, nonatomic) id mainContextMergePolicy;
 
 /**
  *  If the setupCoreDataStackWithCompletion method fails during its first attempt to add the
@@ -72,7 +72,7 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
 - (NSPersistentStoreCoordinator *)setupCoreDataStackWithOptions:(NSDictionary *)options completion:(void (^)(BOOL success, NSError *error))completion;
 
 
-/** 
+/**
  *  Creates a new managed object context with a policy type of NSMergeByPropertyObjectTrumpMergePolicy
  *  and a concurrency type of NSPrivateQueueConcurrencyType.
  *
@@ -102,5 +102,13 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
 - (NSManagedObjectContext *)createContextWithMergePolicy:(id)mergePolicy
                                          concurrencyType:(NSManagedObjectContextConcurrencyType)type;
 
+
+/**
+ *  Returns the default store URL. Note: this may not reflect the actual store URL for iCloud enabled stores. For that,
+ *  use the URL value from the persistent store property.
+ *
+ *  @return A url of the default store location.
+ */
+- (NSURL *)defaultStoreURL;
 
 @end
