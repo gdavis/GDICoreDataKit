@@ -32,7 +32,6 @@
 
 + (NSUInteger)numberOfEntitiesWithPredicate:(NSPredicate *)predicate context:(NSManagedObjectContext *)context
 {
-    NSParameterAssert(predicate);
     NSParameterAssert(context);
     NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:NSStringFromClass([self class])];
     fetchRequest.predicate = predicate;
