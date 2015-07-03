@@ -10,16 +10,19 @@
 
 NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebuildDatabase";
 
-@implementation GDICoreDataStack {
-    NSString *_storeName;
-    NSString *_seedPath;
-    NSString *_configuration;
-}
+@interface GDICoreDataStack ()
 
-@synthesize mainContext = _mainContext;
-@synthesize managedObjectModel = _managedObjectModel;
-@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+@property (copy, nonatomic) NSString *storeName;
+@property (copy, nonatomic) NSString *seedPath;
+@property (copy, nonatomic) NSString *configuration;
+@property (strong, nonatomic) NSHashTable *contextHashTable;
+@property (strong, nonatomic) NSManagedObjectModel* managedObjectModel;
+@property (strong, nonatomic) NSManagedObjectContext* mainContext;
 
+@end
+
+
+@implementation GDICoreDataStack
 
 #pragma mark - Public API
 
@@ -30,24 +33,30 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
         _storeName = storeName;
         _seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
         _configuration = config;
-        _shouldRebuildDatabaseIfPersistentStoreSetupFails = YES;
-        _mainContextMergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;
+        [self commonInit];
     }
     return self;
 }
 
 
-- (id)initWithManagedObjectModel:(NSManagedObjectModel *)model storeName:(NSString *)storeName seedName:(NSString *)seedName configuration:(NSString *)config;
+- (id)initWithManagedObjectModel:(NSManagedObjectModel *)model storeName:(NSString *)storeName seedName:(NSString *)seedName configuration:(NSString *)config
 {
     if (self = [super init]) {
         _managedObjectModel = model;
         _storeName = storeName;
         _seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
         _configuration = config;
-        _shouldRebuildDatabaseIfPersistentStoreSetupFails = YES;
-        _mainContextMergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;
+        [self commonInit];
     }
     return self;
+}
+
+
+- (void)commonInit
+{
+    _contextHashTable = [NSHashTable hashTableWithOptions:NSPointerFunctionsWeakMemory];
+    _shouldRebuildDatabaseIfPersistentStoreSetupFails = YES;
+    _mainContextMergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;
 }
 
 
@@ -70,41 +79,41 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
     
     NSURL *storeURL = [self defaultStoreURL];
     
+    // do not rebuild in case there are observers registered for this coordinator's events
     if (_persistentStoreCoordinator == nil) {
         _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
-        NSPersistentStore *store = [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
-                                                                             configuration:_configuration
-                                                                                       URL:storeURL
-                                                                                   options:options
-                                                                                     error:&error];
-        if (store == nil)
-        {
-            if (_shouldRebuildDatabaseIfPersistentStoreSetupFails) {
-                NSLog(@"error opening persistent store, removing");
-                
-                error = nil;
-                if (![[NSFileManager defaultManager] removeItemAtURL:storeURL error:&error]) {
-                    NSLog(@"error removing persistent store %@, giving up", storeURL);
-                }
-                else {
-                    store = [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
-                                                                      configuration:_configuration
-                                                                                URL:storeURL
-                                                                            options:options
-                                                                              error:&error];
-                    
-                    if (store != nil) {
-                        [[NSNotificationCenter defaultCenter] postNotificationName:GDICoreDataStackDidRebuildDatabase object:self];
-                    }
-                    else {
-                        NSLog(@"error opening persistent store, giving up");
-                    }
-                }
-            }
-        }
-        _persistentStore = store;
     }
     
+    NSPersistentStore *store = [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                                         configuration:_configuration
+                                                                                   URL:storeURL
+                                                                               options:options
+                                                                                 error:&error];
+    if (store == nil && _shouldRebuildDatabaseIfPersistentStoreSetupFails) {
+        NSLog(@"error opening persistent store, removing");
+        
+        error = nil;
+        if (![[NSFileManager defaultManager] removeItemAtURL:storeURL error:&error]) {
+            NSLog(@"error removing persistent store %@, giving up", storeURL);
+        }
+        else {
+            store = [_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                              configuration:_configuration
+                                                                        URL:storeURL
+                                                                    options:options
+                                                                      error:&error];
+            
+            if (store != nil) {
+                [[NSNotificationCenter defaultCenter] postNotificationName:GDICoreDataStackDidRebuildDatabase object:self];
+            }
+            else {
+                NSLog(@"error opening persistent store, giving up");
+            }
+        }
+    }
+    
+    _mainContext = nil;
+    _persistentStore = store;
     _ready = (_persistentStore != nil);
     
     if (completion) {
@@ -112,6 +121,43 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
     }
     
     return _persistentStoreCoordinator;
+}
+
+
+- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options destinationStoreName:(NSString *)destinationStoreName error:(NSError **)error
+{
+    NSURL *destinationURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:destinationStoreName];
+    
+    if (self.persistentStore == nil) {
+        NSAssert(NO, @"Cannot migrate a nil store. Something must be terribly wrong.");
+    }
+    
+    _persistentStore = [self.persistentStoreCoordinator migratePersistentStore:self.persistentStore toURL:destinationURL options:options withType:NSSQLiteStoreType error:error];
+
+    [self.contextHashTable removeAllObjects];
+    self.storeName = destinationStoreName;
+    self.mainContext = nil;
+    
+    return _persistentStore;
+}
+
+
+- (BOOL)removePersistentStore
+{
+    BOOL success = NO;
+    if (_persistentStoreCoordinator != nil && _persistentStore != nil) {
+        NSError *error = nil;
+        success = [_persistentStoreCoordinator removePersistentStore:_persistentStore error:&error];
+        
+        if (success) {
+            _mainContext = nil;
+            _persistentStore = nil;
+        }
+        else {
+            NSLog(@"⚠️ Encountered error removing persistent store: %@", error);
+        }
+    }
+    return success;
 }
 
 
@@ -123,11 +169,11 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
     if (NO == [[NSFileManager defaultManager] fileExistsAtPath:storePath]) {
         NSError *localError;
         if (![[NSFileManager defaultManager] copyItemAtPath:seedPath toPath:storePath error:&localError]) {
-            NSLog(@"Failed to copy seed database from path '%@' to path '%@': %@", seedPath, storePath, [localError localizedDescription]);
+            NSLog(@"⚠️ Failed to copy seed database from path '%@' to path '%@': %@", seedPath, storePath, [localError localizedDescription]);
             if (error) *error = localError;
             return NO;
         }
-        NSLog(@"Successfully copied seed database!");
+        NSLog(@"👍🏻 Successfully copied seed database!");
     }
     return YES;
 }
@@ -159,12 +205,22 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
         context.persistentStoreCoordinator = self.persistentStoreCoordinator;
         context.mergePolicy = mergePolicy;
         context.undoManager = nil;
+        [self.contextHashTable addObject:context];
     }
     return context;
 }
 
 
 #pragma mark - Accessors
+
+- (void)setMainContextMergePolicy:(id)mainContextMergePolicy
+{
+    _mainContextMergePolicy = mainContextMergePolicy;
+    
+    if (self.mainContext != nil) {
+        self.mainContext.mergePolicy = mainContextMergePolicy;
+    }
+}
 
 
 - (NSURL *)defaultStoreURL
@@ -184,7 +240,6 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 
 - (NSManagedObjectContext *)mainContext
 {
-    NSAssert([NSThread isMainThread], @"This context must be accessed on the main thread!");
     if (_mainContext == nil) {
         NSPersistentStoreCoordinator *coordinator = self.persistentStoreCoordinator;
         if (coordinator != nil) {

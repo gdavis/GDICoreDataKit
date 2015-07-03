@@ -20,10 +20,12 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  Main CoreData stack properties
  *  TODO: finish documentation for each
  */
+@property (readonly, copy, nonatomic) NSString *storeName;
 @property (readonly, strong, nonatomic) NSManagedObjectContext *mainContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStore *persistentStore;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (readonly, strong, nonatomic) NSHashTable *contextHashTable;
 @property (nonatomic, readonly, getter=isReady) BOOL ready;
 @property (assign, nonatomic) id mainContextMergePolicy;
 
@@ -53,7 +55,7 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  is provided, this class will attempt to make a copy of that seed database to act as the new core data
  *  database.
  *  @param model                The ManagedObjectModel to use for the CoreData store.
- *  @param storeName            Name for the CoreData sqlite file
+ *  @param storeName            Name for the CoreData sqlite file.
  *  @param seedName             [Optional] Name for the seed database sqlite in the application bundle.
  *  @param configuration        [Optional] Option configuration name to use when creating the persistent store coordinator.
  */
@@ -101,6 +103,25 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  */
 - (NSManagedObjectContext *)createContextWithMergePolicy:(id)mergePolicy
                                          concurrencyType:(NSManagedObjectContextConcurrencyType)type;
+
+/**
+ *  Migrates the current persistent store to a new location.
+ *
+ *  @param options        A dictionary of options to pass to the persistent store's migration method.
+ *  @param destinationURL The URL of the new store location.
+ *  @param error          A pointer to any errors encountered during the migration
+ *
+ *  @return The migrated persistent store.
+ */
+- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options destinationStoreName:(NSString *)destinationStoreName error:(NSError **)error;
+
+
+/**
+ *  Removes the current persistent store from the device.
+ *
+ *  @return A boolean value indidcating if the removal was successful.
+ */
+- (BOOL)removePersistentStore;
 
 
 /**
