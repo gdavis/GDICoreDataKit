@@ -114,6 +114,7 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  @return The migrated persistent store.
  */
 - (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options destinationStoreName:(NSString *)destinationStoreName error:(NSError **)error;
+//- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options destinationURL:(NSURL *)destinationURL error:(NSError **)error;
 
 
 /**
