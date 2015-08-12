@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Grant Davis" => "grant.davis@gmail.com" }
   s.source           = { :git => "https://github.com/gdavis/GDICoreDataKit.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/ghunterdavis'
+  s.social_media_url = 'https://twitter.com/gravitybytes'
   s.frameworks = 'CoreData'
 
   s.platform     = :ios, '5.0'
