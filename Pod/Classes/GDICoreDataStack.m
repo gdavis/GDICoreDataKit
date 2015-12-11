@@ -12,6 +12,7 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 
 @interface GDICoreDataStack ()
 
+@property (copy, nonatomic) NSURL *storeDirectoryURL;
 @property (copy, nonatomic) NSString *storeName;
 @property (copy, nonatomic) NSString *seedPath;
 @property (copy, nonatomic) NSString *configuration;
@@ -27,25 +28,27 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 #pragma mark - Public API
 
 
-- (id)initWithStoreName:(NSString *)storeName seedName:(NSString *)seedName configuration:(NSString *)config
+- (id)initWithStoreName:(NSString *)storeName directoryURL:(NSURL *)directoryURL seedName:(NSString *)seedName configuration:(NSString *)config
 {
     if (self = [super init]) {
-        _storeName = storeName;
-        _seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
-        _configuration = config;
+        self.storeName = storeName;
+        self.storeDirectoryURL = directoryURL;
+        self.seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
+        self.configuration = config;
         [self commonInit];
     }
     return self;
 }
 
 
-- (id)initWithManagedObjectModel:(NSManagedObjectModel *)model storeName:(NSString *)storeName seedName:(NSString *)seedName configuration:(NSString *)config
+- (id)initWithManagedObjectModel:(NSManagedObjectModel *)model storeName:(NSString *)storeName directoryURL:(NSURL *)directoryURL seedName:(NSString *)seedName configuration:(NSString *)config
 {
     if (self = [super init]) {
-        _managedObjectModel = model;
-        _storeName = storeName;
-        _seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
-        _configuration = config;
+        self.managedObjectModel = model;
+        self.storeName = storeName;
+        self.storeDirectoryURL = directoryURL;
+        self.seedPath = seedName != nil ? [[NSBundle mainBundle] pathForResource:seedName ofType:nil] : nil;
+        self.configuration = config;
         [self commonInit];
     }
     return self;
@@ -54,6 +57,8 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 
 - (void)commonInit
 {
+    [self createStoreDirectoryIfNeeded];
+    
     _contextHashTable = [NSHashTable hashTableWithOptions:NSPointerFunctionsWeakMemory];
     _shouldRebuildDatabaseIfPersistentStoreSetupFails = YES;
     _mainContextMergePolicy = NSMergeByPropertyStoreTrumpMergePolicy;
@@ -73,7 +78,7 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
     @synchronized(self) {
         NSError *error = nil;
         if (_seedPath) {
-            NSString *storePath = [[[self applicationDocumentsDirectory] URLByAppendingPathComponent:_storeName] path];
+            NSString *storePath = [[self.storeDirectoryURL URLByAppendingPathComponent:_storeName] path];
             BOOL success = [self copySeedDatabaseIfNecessaryFromPath:_seedPath
                                                               toPath:storePath
                                                                error:&error];
@@ -86,7 +91,13 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
             }
         }
         
-        NSURL *storeURL = [self defaultStoreURL];
+        NSURL *storeURL;
+        if (self.storeDirectoryURL != nil) {
+            storeURL = [self.storeDirectoryURL URLByAppendingPathComponent:self.storeName];
+        }
+        else {
+            storeURL = [self defaultStoreURL];
+        }
         
         // do not rebuild in case there are observers registered for this coordinator's events
         if (_persistentStoreCoordinator == nil) {
@@ -133,10 +144,15 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 }
 
 
-- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options destinationStoreName:(NSString *)destinationStoreName error:(NSError **)error
+- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options directoryURL:(NSURL *)directoryURL destinationStoreName:(NSString *)destinationStoreName error:(NSError **)error
 {
     @synchronized(self) {
-        NSURL *destinationURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:destinationStoreName];
+        
+        self.storeDirectoryURL = directoryURL;
+        
+        [self createStoreDirectoryIfNeeded];
+        
+        NSURL *destinationURL = [self.storeDirectoryURL URLByAppendingPathComponent:destinationStoreName];
         
         if (self.persistentStore == nil) {
             NSAssert(NO, @"Cannot migrate a nil store. Something must be terribly wrong.");
@@ -177,6 +193,20 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 
 
 #pragma mark - Worker Methods
+
+
+- (void)createStoreDirectoryIfNeeded
+{
+    if ([[NSFileManager defaultManager] fileExistsAtPath:[self.storeDirectoryURL path]] == NO) {
+        NSError *error = nil;
+        if ([[NSFileManager defaultManager] createDirectoryAtPath:[self.storeDirectoryURL path] withIntermediateDirectories:YES attributes:nil error:&error]) {
+            NSLog(@"👍🏻 Successfully created store directory.");
+        }
+        else {
+            NSLog(@"Failed to create store directory at url: %@, error: %@", self.storeDirectoryURL, error);
+        }
+    }
+}
 
 
 - (BOOL)copySeedDatabaseIfNecessaryFromPath:(NSString *)seedPath toPath:(NSString *)storePath error:(NSError **)error
@@ -263,7 +293,7 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 
 - (NSURL *)defaultStoreURL
 {
-    return [[self applicationDocumentsDirectory] URLByAppendingPathComponent:_storeName];
+    return [[self applicationSupportDirectoryURL] URLByAppendingPathComponent:_storeName];
 }
 
 
@@ -289,14 +319,10 @@ NSString * const GDICoreDataStackDidRebuildDatabase = @"GDICoreDataStackDidRebui
 }
 
 
-/**
- Returns the URL to the application's Documents directory.
- */
-- (NSURL *)applicationDocumentsDirectory
+- (NSURL *)applicationSupportDirectoryURL
 {
-    NSArray *directories = [[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
-    return (directories.count > 0) ? [directories objectAtIndex:0] : nil;
+    NSArray *directories = [[NSFileManager defaultManager] URLsForDirectory:NSApplicationSupportDirectory inDomains:NSUserDomainMask];
+    return [[directories lastObject] URLByAppendingPathComponent:[[NSBundle mainBundle] bundleIdentifier]];
 }
-
 
 @end

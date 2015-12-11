@@ -20,6 +20,7 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  Main CoreData stack properties
  *  TODO: finish documentation for each
  */
+@property (readonly, copy, nonatomic) NSURL *storeDirectoryURL;
 @property (readonly, copy, nonatomic) NSString *storeName;
 @property (readonly, strong, nonatomic) NSManagedObjectContext *mainContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
@@ -43,10 +44,11 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  is provided, this class will attempt to make a copy of that seed database to act as the new core data
  *  database.
  *  @param storeName            Name for the CoreData sqlite file
+ *  @param directoryURL         A URL for the directory to stave the CoreData store files. The directory will be attempted to be created if it does not exist.
  *  @param seedName             [Optional] Name for the seed database sqlite in the application bundle.
  *  @param configuration        [Optional] Option configuration name to use when creating the persistent store coordinator.
  */
-- (id)initWithStoreName:(NSString *)storeName seedName:(NSString *)seedName configuration:(NSString *)config;
+- (id)initWithStoreName:(NSString *)storeName directoryURL:(NSURL *)directoryURL seedName:(NSString *)seedName configuration:(NSString *)config;
 
 
 /**
@@ -56,10 +58,11 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
  *  database.
  *  @param model                The ManagedObjectModel to use for the CoreData store.
  *  @param storeName            Name for the CoreData sqlite file.
+ *  @param directoryURL         A URL for the directory to stave the CoreData store files. The directory will be attempted to be created if it does not exist.
  *  @param seedName             [Optional] Name for the seed database sqlite in the application bundle.
  *  @param configuration        [Optional] Option configuration name to use when creating the persistent store coordinator.
  */
-- (id)initWithManagedObjectModel:(NSManagedObjectModel *)model storeName:(NSString *)storeName seedName:(NSString *)seedName configuration:(NSString *)config;
+- (id)initWithManagedObjectModel:(NSManagedObjectModel *)model storeName:(NSString *)storeName directoryURL:(NSURL *)directoryURL seedName:(NSString *)seedName configuration:(NSString *)config;
 
 
 /**
@@ -107,14 +110,14 @@ extern NSString * const GDICoreDataStackDidRebuildDatabase;
 /**
  *  Migrates the current persistent store to a new location.
  *
- *  @param options        A dictionary of options to pass to the persistent store's migration method.
- *  @param destinationURL The URL of the new store location.
- *  @param error          A pointer to any errors encountered during the migration
+ *  @param options              A dictionary of options to pass to the persistent store's migration method.
+ *  @param directoryURL         The URL of the directory to migrate the persistent store to. This will change this stack's storeDirectoryURL attribute.
+ *  @param destinationStoreName The name of the store file.
+ *  @param error                A pointer to any errors encountered during the migration
  *
  *  @return The migrated persistent store.
  */
-- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options destinationStoreName:(NSString *)destinationStoreName error:(NSError **)error;
-//- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options destinationURL:(NSURL *)destinationURL error:(NSError **)error;
+- (NSPersistentStore *)migratePersistentStoreWithOptions:(NSDictionary *)options directoryURL:(NSURL *)directoryURL destinationStoreName:(NSString *)destinationStoreName error:(NSError **)error;
 
 
 /**
